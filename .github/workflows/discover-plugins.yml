@@ -2,6 +2,7 @@ name: Discover Plugins
 on:
   schedule:
     - cron: '0 0 * * 0'   # Sunday midnight UTC
+    - cron: '0 0 * * 3'   # Wednesday midnight UTC
   workflow_dispatch:        # allow manual trigger
 
 jobs:
