@@ -2,19 +2,19 @@
 'use strict';
 
 /**
- * Discover Claude Code plugins via GitHub Code Search.
- * Searches for `filename:marketplace.json path:.claude-plugin`, deduplicates by repo,
- * fetches star counts, and writes discovered.json.
+ * Discover Claude Code plugins and MCP tools via GitHub.
+ *
+ * Phase 1 — Plugins: Code Search for `filename:marketplace.json path:.claude-plugin`
+ * Phase 2 — Tools:   Repo Search for `topic:mcp-server topic:claude-code`
+ *
+ * Both phases use change-detection via known-repos.json / known-tools.json:
+ *   { "owner/repo": { "lastScannedAt": "<ISO>", "repoUpdatedAt": "<ISO>" } }
+ * Repos whose updated_at hasn't changed since last scan are reused without extra API calls.
  *
  * Two modes set via CRAWL_MODE env var:
- *   full        — Sunday: checks every repo found in code search. Skips re-fetching repos
- *                 whose GitHub updated_at hasn't changed since last scan (saves 2 API calls
- *                 per unchanged repo). Spreads remaining calls over ~2 hours.
- *   incremental — Wednesday: only processes repos not yet in known-repos.json. Merges new
- *                 findings into existing discovered.json.
- *
- * known-repos.json format — map, not array:
- *   { "owner/repo": { "lastScannedAt": "<ISO>", "repoUpdatedAt": "<ISO>" } }
+ *   full        — Sunday: checks every repo in search results, skips unchanged.
+ *                 Spreads plugin API calls over ~2 hours.
+ *   incremental — Wednesday: only processes repos not yet in known-repos / known-tools.
  *
  * Run by .github/workflows/discover-plugins.yml (authenticated: 5,000 req/hr).
  */
@@ -23,13 +23,14 @@ const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
 
-const TOKEN       = process.env.GITHUB_TOKEN;
-const CRAWL_MODE  = (process.env.CRAWL_MODE || 'full').toLowerCase();
-const IS_FULL     = CRAWL_MODE !== 'incremental';
-const OUT_FILE    = path.join(__dirname, '..', 'discovered.json');
-const KNOWN_FILE  = path.join(__dirname, '..', 'known-repos.json');
+const TOKEN            = process.env.GITHUB_TOKEN;
+const CRAWL_MODE       = (process.env.CRAWL_MODE || 'full').toLowerCase();
+const IS_FULL          = CRAWL_MODE !== 'incremental';
+const OUT_FILE         = path.join(__dirname, '..', 'discovered.json');
+const KNOWN_FILE       = path.join(__dirname, '..', 'known-repos.json');
+const KNOWN_TOOLS_FILE = path.join(__dirname, '..', 'known-tools.json');
 
-const TARGET_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours (full run spread)
+const TARGET_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours (full plugin run spread)
 
 if (!TOKEN) {
   console.error('GITHUB_TOKEN is required');
@@ -50,14 +51,13 @@ function safeReadJson(filePath) {
 }
 
 /**
- * Load known-repos.json as a map.
- * Handles one-time migration from old flat-array format.
+ * Load a known-repos map file. Handles migration from old flat-array format.
  */
-function loadKnownRepos() {
-  const data = safeReadJson(KNOWN_FILE);
+function loadKnownMap(filePath) {
+  const data = safeReadJson(filePath);
   if (!data) return {};
   if (Array.isArray(data)) {
-    console.log(`Migrating known-repos.json from array (${data.length}) to map format`);
+    console.log(`Migrating ${path.basename(filePath)} from array to map format`);
     return Object.fromEntries(data.map(name => [name, {}]));
   }
   return data;
@@ -92,7 +92,7 @@ function githubGet(apiPath, accept = 'application/vnd.github.v3+json') {
   });
 }
 
-// ── Search ────────────────────────────────────────────────────
+// ── Phase 1: Plugin fetchers ──────────────────────────────────
 
 async function searchCodePages() {
   const repos = new Map(); // full_name → { owner, repo }
@@ -103,7 +103,6 @@ async function searchCodePages() {
     const q = encodeURIComponent('filename:marketplace.json path:.claude-plugin');
     const data = await githubGet(
       `search/code?q=${q}&per_page=${perPage}&page=${page}`,
-      'application/vnd.github.v3+json'
     );
     await sleep(500);
 
@@ -130,8 +129,6 @@ async function searchCodePages() {
 
   return repos;
 }
-
-// ── Fetchers ──────────────────────────────────────────────────
 
 /**
  * Fetch repo metadata: stars, created_at, updated_at.
@@ -173,20 +170,86 @@ async function fetchMarketplaceDetails(owner, repo) {
   return { marketplace, lastMarketplaceCommit };
 }
 
+// ── Phase 2: Tools fetchers ───────────────────────────────────
+
+/**
+ * Search for MCP tools via GitHub repo search (topic:mcp-server + topic:claude-code).
+ * Results include full repo metadata — no extra API calls needed for basic info.
+ * Strip the two discovery topics from the returned topics list (not useful as filters).
+ */
+async function searchToolsPages(pluginRepos) {
+  const tools = new Map();
+  const perPage = 100;
+  const maxPages = 9; // ~830 results max
+
+  for (let page = 1; page <= maxPages; page++) {
+    const q = encodeURIComponent('topic:mcp-server topic:claude-code');
+    const data = await githubGet(
+      `search/repositories?q=${q}&per_page=${perPage}&page=${page}&sort=stars`,
+    );
+    await sleep(2000); // repo search: 30 req/min, be conservative
+
+    if (!data?.items?.length) {
+      if (page === 1 && !data) { console.warn('Tools search returned no data — skipping tools phase'); break; }
+      break;
+    }
+
+    for (const item of data.items) {
+      const fn = item.full_name;
+      if (pluginRepos.has(fn)) continue; // already captured as a plugin
+      if (!tools.has(fn)) {
+        tools.set(fn, {
+          owner:         item.owner.login,
+          name:          item.name,
+          desc:          item.description || '',
+          stars:         item.stargazers_count ?? 0,
+          topics:        (item.topics ?? []).filter(t => t !== 'mcp-server' && t !== 'claude-code'),
+          repoCreatedAt: item.created_at ?? null,
+          repoUpdatedAt: item.updated_at ?? null,
+        });
+      }
+    }
+
+    if (data.items.length < perPage) break;
+  }
+
+  return tools;
+}
+
+/**
+ * Fetch optional install hint from server.json (MCP registry format).
+ * Only called for tools with ≥10 stars. Returns e.g. "npx zikkaron" or "uvx zikkaron".
+ */
+async function fetchToolInstallHint(owner, repo) {
+  const data = await githubGet(`repos/${owner}/${repo}/contents/server.json`);
+  await sleep(500);
+  if (!data?.content) return null;
+  try {
+    const json = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'));
+    const pkg = json.packages?.[0];
+    if (!pkg) return null;
+    if (pkg.registryType === 'npm')  return `npx ${pkg.identifier}`;
+    if (pkg.registryType === 'pypi') return `uvx ${pkg.identifier}`;
+    return null;
+  } catch { return null; }
+}
+
 // ── Main ──────────────────────────────────────────────────────
 
 async function main() {
-  console.log('Searching GitHub for .claude-plugin/marketplace.json files…');
+  // ── Phase 1: Plugins ─────────────────────────────────────────
+
+  console.log('Phase 1: Searching for plugins (filename:marketplace.json path:.claude-plugin)…');
   const allRepos = await searchCodePages();
-  console.log(`Found ${allRepos.size} unique repos in code search`);
+  console.log(`Found ${allRepos.size} unique plugin repos in code search`);
 
   if (allRepos.size === 0) {
-    console.error('No repos found — aborting without overwriting existing file');
+    console.error('No plugin repos found — aborting without overwriting existing file');
     process.exit(0);
   }
 
-  const knownRepos = loadKnownRepos();
-  console.log(`Known repos from previous runs: ${Object.keys(knownRepos).length}`);
+  const knownRepos = loadKnownMap(KNOWN_FILE);
+  console.log(`Known plugin repos: ${Object.keys(knownRepos).length}`);
 
   // Build lookup of existing plugin entries by repo for reuse when unchanged
   const existingByRepo = new Map();
@@ -195,66 +258,54 @@ async function main() {
     existingByRepo.get(p.repo).push(p);
   }
 
-  // Incremental: only new repos; full: everything (but may skip unchanged via change-detection)
-  const toProcess = IS_FULL
+  const toProcessPlugins = IS_FULL
     ? allRepos
     : new Map([...allRepos].filter(([fn]) => !(fn in knownRepos)));
 
-  console.log(`Repos to process this run: ${toProcess.size}`);
+  console.log(`Plugin repos to process: ${toProcessPlugins.size}`);
 
-  if (toProcess.size === 0) {
-    console.log('No new repos — nothing to update.');
-    process.exit(0);
-  }
-
-  // Full run: spread based on 1 metadata call per repo (minimum cost).
-  // Changed repos cost 2 more calls but we can't predict how many upfront.
-  const interRepoSleep = IS_FULL
-    ? Math.max(0, Math.floor((TARGET_DURATION_MS - toProcess.size * 500) / toProcess.size))
+  // Full run: spread based on 1 metadata call per repo (minimum cost)
+  const interRepoSleep = IS_FULL && toProcessPlugins.size > 0
+    ? Math.max(0, Math.floor((TARGET_DURATION_MS - toProcessPlugins.size * 500) / toProcessPlugins.size))
     : 0;
 
-  if (IS_FULL) {
-    const estMin = Math.round(toProcess.size * (500 + interRepoSleep) / 60_000);
-    console.log(`Inter-repo sleep: ${interRepoSleep}ms → estimated ≤${estMin} min (less for unchanged repos)`);
+  if (IS_FULL && toProcessPlugins.size > 0) {
+    const estMin = Math.round(toProcessPlugins.size * (500 + interRepoSleep) / 60_000);
+    console.log(`Inter-repo sleep: ${interRepoSleep}ms → estimated ≤${estMin} min for plugins`);
   }
 
-  const scanTime   = new Date().toISOString();
-  const newPlugins = [];
+  const scanTime     = new Date().toISOString();
+  const newPlugins   = [];
   const updatedKnown = { ...knownRepos };
-  let processed = 0, fetched = 0, reused = 0;
+  let pluginsFetched = 0, pluginsReused = 0;
 
-  for (const [fullName, { owner, repo }] of toProcess) {
-    processed++;
+  for (const [fullName, { owner, repo }] of toProcessPlugins) {
     try {
-      console.log(`  [${processed}/${toProcess.size}] ${fullName}…`);
-
-      // Step 1: always fetch repo metadata (1 call) for change detection
+      // Step 1: metadata (1 call) for change detection
       const meta = await fetchRepoMeta(owner, repo);
-      if (!meta) { console.log(`    skip — metadata fetch failed`); continue; }
+      if (!meta) { console.log(`  ${fullName} — skip (metadata failed)`); continue; }
 
       const known      = knownRepos[fullName];
       const hasChanged = !known?.repoUpdatedAt || meta.repoUpdatedAt !== known.repoUpdatedAt;
 
-      // Step 2: if unchanged and we have existing entries, reuse them
+      // Step 2: unchanged — reuse existing entries
       if (!hasChanged && existingByRepo.has(fullName)) {
         const existing = existingByRepo.get(fullName);
-        // Carry forward with refreshed repoUpdatedAt (in case field was absent before)
         for (const e of existing) newPlugins.push({ ...e, repoUpdatedAt: meta.repoUpdatedAt });
         updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt: meta.repoUpdatedAt };
-        console.log(`    unchanged — reused ${existing.length} entr${existing.length === 1 ? 'y' : 'ies'} (saved 2 API calls)`);
-        reused++;
+        pluginsReused++;
         if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
         continue;
       }
 
       // Step 3: changed or new — fetch marketplace details (2 more calls)
       const mktDetails = await fetchMarketplaceDetails(owner, repo);
-      if (!mktDetails) { console.log(`    skip — could not fetch marketplace details`); continue; }
+      if (!mktDetails) { console.log(`  ${fullName} — skip (marketplace fetch failed)`); continue; }
 
       const { marketplace, lastMarketplaceCommit } = mktDetails;
       const { stars, repoCreatedAt, repoUpdatedAt } = meta;
 
-      if (stars < 1) { console.log(`    skip — 0 stars`); continue; }
+      if (stars < 1) continue;
 
       const ageDays = repoCreatedAt
         ? (Date.now() - new Date(repoCreatedAt).getTime()) / 86_400_000
@@ -280,51 +331,150 @@ async function main() {
       }
 
       updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
-      fetched++;
+      pluginsFetched++;
 
       if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
 
     } catch (err) {
-      console.warn(`  Error processing ${fullName}: ${err.message}`);
+      console.warn(`  ${fullName} — error: ${err.message}`);
     }
   }
 
-  // Full run: remove stale known-repo entries for repos no longer in code search
+  // Full run: prune stale known-repo entries no longer in code search
   if (IS_FULL) {
     const before = Object.keys(updatedKnown).length;
     for (const fn of Object.keys(updatedKnown)) {
       if (!allRepos.has(fn)) delete updatedKnown[fn];
     }
     const removed = before - Object.keys(updatedKnown).length;
-    if (removed > 0) console.log(`Pruned ${removed} stale entr${removed === 1 ? 'y' : 'ies'} from known-repos`);
+    if (removed > 0) console.log(`Pruned ${removed} stale plugin entries`);
   }
 
-  console.log(`\nSummary: ${fetched} full fetch · ${reused} unchanged (saved ~${reused * 2} API calls)`);
-
-  // Full: replace entirely. Incremental: merge new into existing.
   let finalPlugins;
   if (IS_FULL) {
     finalPlugins = newPlugins;
   } else {
-    const processedRepos = new Set([...toProcess.keys()]);
+    const processedRepos = new Set([...toProcessPlugins.keys()]);
     const existing = (safeReadJson(OUT_FILE)?.plugins ?? [])
       .filter(p => !processedRepos.has(p.repo));
     finalPlugins = [...existing, ...newPlugins];
-    console.log(`Merged: ${existing.length} existing + ${newPlugins.length} new = ${finalPlugins.length} total`);
+    console.log(`Plugins merged: ${existing.length} existing + ${newPlugins.length} new = ${finalPlugins.length}`);
   }
+
+  console.log(`Plugin phase: ${pluginsFetched} full fetch · ${pluginsReused} reused (saved ~${pluginsReused * 2} calls)`);
+
+  // ── Phase 2: Tools ────────────────────────────────────────────
+
+  console.log('\nPhase 2: Searching for MCP tools (topic:mcp-server topic:claude-code)…');
+  const allTools = await searchToolsPages(allRepos);
+  console.log(`Found ${allTools.size} tool repos (excluding plugin repos)`);
+
+  const knownTools    = loadKnownMap(KNOWN_TOOLS_FILE);
+  const existingTools = new Map(
+    (safeReadJson(OUT_FILE)?.tools ?? []).map(t => [t.repo, t])
+  );
+
+  const toProcessTools = IS_FULL
+    ? allTools
+    : new Map([...allTools].filter(([fn]) => !(fn in knownTools)));
+
+  console.log(`Tool repos to process: ${toProcessTools.size}`);
+
+  const newTools          = [];
+  const updatedKnownTools = { ...knownTools };
+  let toolsFetched = 0, toolsReused = 0;
+
+  for (const [fullName, toolMeta] of toProcessTools) {
+    try {
+      const { owner, name, desc, stars, topics, repoCreatedAt, repoUpdatedAt } = toolMeta;
+
+      // Metadata came free from search results — use directly for change detection
+      const known      = knownTools[fullName];
+      const hasChanged = !known?.repoUpdatedAt || repoUpdatedAt !== known.repoUpdatedAt;
+
+      if (!hasChanged && existingTools.has(fullName)) {
+        newTools.push(existingTools.get(fullName));
+        updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+        toolsReused++;
+        continue;
+      }
+
+      if (stars < 1) continue;
+
+      const ageDays = repoCreatedAt
+        ? (Date.now() - new Date(repoCreatedAt).getTime()) / 86_400_000
+        : 0;
+      const tier = (stars >= 25 || (stars >= 10 && ageDays >= 90)) ? 'established' : 'new';
+
+      // Fetch install hint from server.json for tools with enough stars
+      let installHint = null;
+      if (stars >= 10) {
+        installHint = await fetchToolInstallHint(owner, fullName.split('/')[1]);
+      }
+
+      newTools.push({
+        name,
+        desc,
+        author:       owner,
+        repo:         fullName,
+        repoUrl:      `https://github.com/${fullName}`,
+        stars,
+        tier,
+        repoCreatedAt,
+        repoUpdatedAt,
+        topics,
+        installHint,
+      });
+
+      updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+      toolsFetched++;
+
+    } catch (err) {
+      console.warn(`  ${fullName} (tool) — error: ${err.message}`);
+    }
+  }
+
+  // Full run: prune stale tool entries no longer in topic search
+  if (IS_FULL) {
+    const before = Object.keys(updatedKnownTools).length;
+    for (const fn of Object.keys(updatedKnownTools)) {
+      if (!allTools.has(fn)) delete updatedKnownTools[fn];
+    }
+    const removed = before - Object.keys(updatedKnownTools).length;
+    if (removed > 0) console.log(`Pruned ${removed} stale tool entries`);
+  }
+
+  let finalTools;
+  if (IS_FULL) {
+    finalTools = newTools;
+  } else {
+    const processedToolRepos = new Set([...toProcessTools.keys()]);
+    const existingFinal = (safeReadJson(OUT_FILE)?.tools ?? [])
+      .filter(t => !processedToolRepos.has(t.repo));
+    finalTools = [...existingFinal, ...newTools];
+    console.log(`Tools merged: ${existingFinal.length} existing + ${newTools.length} new = ${finalTools.length}`);
+  }
+
+  console.log(`Tool phase: ${toolsFetched} full fetch · ${toolsReused} reused (saved ~${toolsReused} calls)`);
+
+  // ── Write outputs ─────────────────────────────────────────────
 
   const out = {
     generatedAt:  new Date().toISOString(),
     pluginCount:  finalPlugins.length,
+    toolCount:    finalTools.length,
     plugins:      finalPlugins,
+    tools:        finalTools,
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
-  fs.writeFileSync(OUT_FILE,   JSON.stringify(out, null, 2), 'utf8');
-  fs.writeFileSync(KNOWN_FILE, JSON.stringify(updatedKnown, null, 2), 'utf8');
+  fs.writeFileSync(OUT_FILE,         JSON.stringify(out, null, 2), 'utf8');
+  fs.writeFileSync(KNOWN_FILE,       JSON.stringify(updatedKnown, null, 2), 'utf8');
+  fs.writeFileSync(KNOWN_TOOLS_FILE, JSON.stringify(updatedKnownTools, null, 2), 'utf8');
 
-  console.log(`Wrote ${finalPlugins.length} plugins to discovered.json`);
+  console.log(`\nWrote ${finalPlugins.length} plugins + ${finalTools.length} tools to discovered.json`);
   console.log(`Wrote ${Object.keys(updatedKnown).length} entries to known-repos.json`);
+  console.log(`Wrote ${Object.keys(updatedKnownTools).length} entries to known-tools.json`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
