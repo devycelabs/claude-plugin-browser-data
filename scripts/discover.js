@@ -7,10 +7,14 @@
  * fetches star counts, and writes discovered.json.
  *
  * Two modes set via CRAWL_MODE env var:
- *   full        — Sunday: processes all repos, rewrites discovered.json + known-repos.json,
- *                 spreads API calls evenly across 2 hours to avoid rate-limit spikes.
- *   incremental — Wednesday: skips repos already in known-repos.json, merges new findings
- *                 into existing discovered.json. Only new repos get API calls.
+ *   full        — Sunday: checks every repo found in code search. Skips re-fetching repos
+ *                 whose GitHub updated_at hasn't changed since last scan (saves 2 API calls
+ *                 per unchanged repo). Spreads remaining calls over ~2 hours.
+ *   incremental — Wednesday: only processes repos not yet in known-repos.json. Merges new
+ *                 findings into existing discovered.json.
+ *
+ * known-repos.json format — map, not array:
+ *   { "owner/repo": { "lastScannedAt": "<ISO>", "repoUpdatedAt": "<ISO>" } }
  *
  * Run by .github/workflows/discover-plugins.yml (authenticated: 5,000 req/hr).
  */
@@ -25,8 +29,7 @@ const IS_FULL     = CRAWL_MODE !== 'incremental';
 const OUT_FILE    = path.join(__dirname, '..', 'discovered.json');
 const KNOWN_FILE  = path.join(__dirname, '..', 'known-repos.json');
 
-// Full run spreads API calls across this window to avoid rate-limit spikes
-const TARGET_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours
+const TARGET_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours (full run spread)
 
 if (!TOKEN) {
   console.error('GITHUB_TOKEN is required');
@@ -35,6 +38,8 @@ if (!TOKEN) {
 
 console.log(`Crawl mode: ${CRAWL_MODE.toUpperCase()}`);
 
+// ── Helpers ──────────────────────────────────────────────────
+
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
@@ -42,6 +47,20 @@ function sleep(ms) {
 function safeReadJson(filePath) {
   try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); }
   catch { return null; }
+}
+
+/**
+ * Load known-repos.json as a map.
+ * Handles one-time migration from old flat-array format.
+ */
+function loadKnownRepos() {
+  const data = safeReadJson(KNOWN_FILE);
+  if (!data) return {};
+  if (Array.isArray(data)) {
+    console.log(`Migrating known-repos.json from array (${data.length}) to map format`);
+    return Object.fromEntries(data.map(name => [name, {}]));
+  }
+  return data;
 }
 
 function githubGet(apiPath, accept = 'application/vnd.github.v3+json') {
@@ -73,6 +92,8 @@ function githubGet(apiPath, accept = 'application/vnd.github.v3+json') {
   });
 }
 
+// ── Search ────────────────────────────────────────────────────
+
 async function searchCodePages() {
   const repos = new Map(); // full_name → { owner, repo }
   const perPage = 100;
@@ -89,7 +110,7 @@ async function searchCodePages() {
     if (!data?.items?.length) {
       if (page === 1 && !data) {
         console.error('Code search returned no data — possible API outage, aborting');
-        process.exit(0); // Don't overwrite existing file
+        process.exit(0);
       }
       break;
     }
@@ -110,8 +131,28 @@ async function searchCodePages() {
   return repos;
 }
 
-async function fetchRepoDetails(owner, repo) {
-  // 1. marketplace.json contents
+// ── Fetchers ──────────────────────────────────────────────────
+
+/**
+ * Fetch repo metadata: stars, created_at, updated_at.
+ * Always called first — used for change detection before committing to 2 more calls.
+ */
+async function fetchRepoMeta(owner, repo) {
+  const data = await githubGet(`repos/${owner}/${repo}`);
+  await sleep(500);
+  if (!data) return null;
+  return {
+    stars:          data.stargazers_count ?? 0,
+    repoCreatedAt:  data.created_at ?? null,
+    repoUpdatedAt:  data.updated_at ?? null,
+  };
+}
+
+/**
+ * Fetch marketplace.json content + last commit date.
+ * Only called when repo metadata has changed since last scan.
+ */
+async function fetchMarketplaceDetails(owner, repo) {
   const contentsData = await githubGet(
     `repos/${owner}/${repo}/contents/.claude-plugin/marketplace.json`
   );
@@ -123,21 +164,16 @@ async function fetchRepoDetails(owner, repo) {
     marketplace = JSON.parse(Buffer.from(contentsData.content, 'base64').toString('utf8'));
   } catch { return null; }
 
-  // 2. Last commit date for marketplace.json
   const commits = await githubGet(
     `repos/${owner}/${repo}/commits?path=.claude-plugin/marketplace.json&per_page=1`
   );
   await sleep(500);
   const lastMarketplaceCommit = commits?.[0]?.commit?.committer?.date ?? null;
 
-  // 3. Repo metadata — stars + creation date
-  const repoData = await githubGet(`repos/${owner}/${repo}`);
-  await sleep(500);
-  const stars         = repoData?.stargazers_count ?? 0;
-  const repoCreatedAt = repoData?.created_at ?? null;
-
-  return { marketplace, lastMarketplaceCommit, stars, repoCreatedAt };
+  return { marketplace, lastMarketplaceCommit };
 }
+
+// ── Main ──────────────────────────────────────────────────────
 
 async function main() {
   console.log('Searching GitHub for .claude-plugin/marketplace.json files…');
@@ -149,13 +185,20 @@ async function main() {
     process.exit(0);
   }
 
-  // Load known-repos for incremental filtering
-  const knownRepos = new Set(safeReadJson(KNOWN_FILE) ?? []);
-  console.log(`Known repos from previous runs: ${knownRepos.size}`);
+  const knownRepos = loadKnownRepos();
+  console.log(`Known repos from previous runs: ${Object.keys(knownRepos).length}`);
 
+  // Build lookup of existing plugin entries by repo for reuse when unchanged
+  const existingByRepo = new Map();
+  for (const p of (safeReadJson(OUT_FILE)?.plugins ?? [])) {
+    if (!existingByRepo.has(p.repo)) existingByRepo.set(p.repo, []);
+    existingByRepo.get(p.repo).push(p);
+  }
+
+  // Incremental: only new repos; full: everything (but may skip unchanged via change-detection)
   const toProcess = IS_FULL
     ? allRepos
-    : new Map([...allRepos].filter(([fn]) => !knownRepos.has(fn)));
+    : new Map([...allRepos].filter(([fn]) => !(fn in knownRepos)));
 
   console.log(`Repos to process this run: ${toProcess.size}`);
 
@@ -164,32 +207,53 @@ async function main() {
     process.exit(0);
   }
 
-  // Compute inter-repo sleep so full run spreads over TARGET_DURATION_MS.
-  // Each repo costs 3 x 500ms = 1,500ms in API calls; we pad the remainder.
-  const API_MS_PER_REPO = 3 * 500;
+  // Full run: spread based on 1 metadata call per repo (minimum cost).
+  // Changed repos cost 2 more calls but we can't predict how many upfront.
   const interRepoSleep = IS_FULL
-    ? Math.max(0, Math.floor((TARGET_DURATION_MS - toProcess.size * API_MS_PER_REPO) / toProcess.size))
+    ? Math.max(0, Math.floor((TARGET_DURATION_MS - toProcess.size * 500) / toProcess.size))
     : 0;
 
   if (IS_FULL) {
-    const estMin = Math.round(toProcess.size * (API_MS_PER_REPO + interRepoSleep) / 60_000);
-    console.log(`Inter-repo sleep: ${interRepoSleep}ms → estimated ~${estMin} min total`);
+    const estMin = Math.round(toProcess.size * (500 + interRepoSleep) / 60_000);
+    console.log(`Inter-repo sleep: ${interRepoSleep}ms → estimated ≤${estMin} min (less for unchanged repos)`);
   }
 
+  const scanTime   = new Date().toISOString();
   const newPlugins = [];
-  const newKnown   = new Set(knownRepos);
-  let processed = 0;
+  const updatedKnown = { ...knownRepos };
+  let processed = 0, fetched = 0, reused = 0;
 
   for (const [fullName, { owner, repo }] of toProcess) {
     processed++;
     try {
       console.log(`  [${processed}/${toProcess.size}] ${fullName}…`);
-      const details = await fetchRepoDetails(owner, repo);
-      if (!details) { console.log(`    skip — could not fetch details`); continue; }
 
-      const { marketplace, lastMarketplaceCommit, stars, repoCreatedAt } = details;
+      // Step 1: always fetch repo metadata (1 call) for change detection
+      const meta = await fetchRepoMeta(owner, repo);
+      if (!meta) { console.log(`    skip — metadata fetch failed`); continue; }
 
-      // Discard zero-star repos (test/abandoned)
+      const known      = knownRepos[fullName];
+      const hasChanged = !known?.repoUpdatedAt || meta.repoUpdatedAt !== known.repoUpdatedAt;
+
+      // Step 2: if unchanged and we have existing entries, reuse them
+      if (!hasChanged && existingByRepo.has(fullName)) {
+        const existing = existingByRepo.get(fullName);
+        // Carry forward with refreshed repoUpdatedAt (in case field was absent before)
+        for (const e of existing) newPlugins.push({ ...e, repoUpdatedAt: meta.repoUpdatedAt });
+        updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt: meta.repoUpdatedAt };
+        console.log(`    unchanged — reused ${existing.length} entr${existing.length === 1 ? 'y' : 'ies'} (saved 2 API calls)`);
+        reused++;
+        if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
+        continue;
+      }
+
+      // Step 3: changed or new — fetch marketplace details (2 more calls)
+      const mktDetails = await fetchMarketplaceDetails(owner, repo);
+      if (!mktDetails) { console.log(`    skip — could not fetch marketplace details`); continue; }
+
+      const { marketplace, lastMarketplaceCommit } = mktDetails;
+      const { stars, repoCreatedAt, repoUpdatedAt } = meta;
+
       if (stars < 1) { console.log(`    skip — 0 stars`); continue; }
 
       const tier = stars >= 5 ? 'established' : 'new';
@@ -207,13 +271,14 @@ async function main() {
           tier,
           lastMarketplaceCommit,
           repoCreatedAt,
+          repoUpdatedAt,
           keywords:             p.keywords ?? [],
         });
       }
 
-      newKnown.add(fullName);
+      updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+      fetched++;
 
-      // Spread full run across TARGET_DURATION_MS
       if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
 
     } catch (err) {
@@ -221,8 +286,19 @@ async function main() {
     }
   }
 
-  // Full: replace entirely. Incremental: merge new findings into existing data.
-  // Strip any entries from processed repos first (handles retries / re-indexing).
+  // Full run: remove stale known-repo entries for repos no longer in code search
+  if (IS_FULL) {
+    const before = Object.keys(updatedKnown).length;
+    for (const fn of Object.keys(updatedKnown)) {
+      if (!allRepos.has(fn)) delete updatedKnown[fn];
+    }
+    const removed = before - Object.keys(updatedKnown).length;
+    if (removed > 0) console.log(`Pruned ${removed} stale entr${removed === 1 ? 'y' : 'ies'} from known-repos`);
+  }
+
+  console.log(`\nSummary: ${fetched} full fetch · ${reused} unchanged (saved ~${reused * 2} API calls)`);
+
+  // Full: replace entirely. Incremental: merge new into existing.
   let finalPlugins;
   if (IS_FULL) {
     finalPlugins = newPlugins;
@@ -242,10 +318,10 @@ async function main() {
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   fs.writeFileSync(OUT_FILE,   JSON.stringify(out, null, 2), 'utf8');
-  fs.writeFileSync(KNOWN_FILE, JSON.stringify([...newKnown], null, 2), 'utf8');
+  fs.writeFileSync(KNOWN_FILE, JSON.stringify(updatedKnown, null, 2), 'utf8');
 
-  console.log(`\nWrote ${finalPlugins.length} plugins to discovered.json`);
-  console.log(`Wrote ${newKnown.size} entries to known-repos.json`);
+  console.log(`Wrote ${finalPlugins.length} plugins to discovered.json`);
+  console.log(`Wrote ${Object.keys(updatedKnown).length} entries to known-repos.json`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
