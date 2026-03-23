@@ -256,7 +256,10 @@ async function main() {
 
       if (stars < 1) { console.log(`    skip — 0 stars`); continue; }
 
-      const tier = stars >= 5 ? 'established' : 'new';
+      const ageDays = repoCreatedAt
+        ? (Date.now() - new Date(repoCreatedAt).getTime()) / 86_400_000
+        : 0;
+      const tier = (stars >= 25 || (stars >= 10 && ageDays >= 90)) ? 'established' : 'new';
       const mktPlugins = marketplace.plugins ?? (Array.isArray(marketplace) ? marketplace : [marketplace]);
 
       for (const p of mktPlugins) {
