@@ -115,6 +115,7 @@ async function fetchRepoDetails(owner, repo) {
   const repoData = await githubGet(`repos/${owner}/${repo}`);
   await sleep(500);
   const stars = repoData?.stargazers_count ?? 0;
+  const repoCreatedAt = repoData?.created_at ?? null;
 
   return { marketplace, lastMarketplaceCommit, stars };
 }
@@ -156,6 +157,7 @@ async function main() {
           stars,
           tier,
           lastMarketplaceCommit,
+          repoCreatedAt,
           keywords:              p.keywords ?? [],
         });
       }
