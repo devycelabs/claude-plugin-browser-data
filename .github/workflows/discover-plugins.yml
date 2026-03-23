@@ -1,9 +1,9 @@
 name: Discover Plugins
 on:
   schedule:
-    - cron: '0 0 * * 0'   # Sunday midnight UTC
-    - cron: '0 0 * * 3'   # Wednesday midnight UTC
-  workflow_dispatch:        # allow manual trigger
+    - cron: '0 0 * * 0'   # Sunday midnight UTC — full crawl
+    - cron: '0 0 * * 3'   # Wednesday midnight UTC — incremental (new repos only)
+  workflow_dispatch:        # allow manual trigger (runs as full)
 
 jobs:
   discover:
@@ -14,13 +14,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '20' }
+
+      - name: Set crawl mode
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          if [ "$SCHEDULE" = "0 0 * * 3" ]; then
+            echo "CRAWL_MODE=incremental" >> $GITHUB_ENV
+          else
+            echo "CRAWL_MODE=full" >> $GITHUB_ENV
+          fi
+
       - run: node scripts/discover.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit discovered.json
+          CRAWL_MODE: ${{ env.CRAWL_MODE }}
+
+      - name: Commit results
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add discovered.json
-          git diff --staged --quiet || git commit -m "chore: update discovered plugins [skip ci]"
+          git add discovered.json known-repos.json
+          git diff --staged --quiet || git commit -m "chore: update discovered plugins [${{ env.CRAWL_MODE }}] [skip ci]"
           git push
