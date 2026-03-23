@@ -1,0 +1,11 @@
+# Enforce LF line endings in the repo and on checkout
+* text=auto eol=lf
+
+# Binary files — no line ending conversion
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.gz   binary
