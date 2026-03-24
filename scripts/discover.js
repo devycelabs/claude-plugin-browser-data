@@ -305,8 +305,6 @@ async function main() {
       const { marketplace, lastMarketplaceCommit } = mktDetails;
       const { stars, repoCreatedAt, repoUpdatedAt } = meta;
 
-      if (stars < 1) continue;
-
       const ageDays = repoCreatedAt
         ? (Date.now() - new Date(repoCreatedAt).getTime()) / 86_400_000
         : 0;
@@ -398,8 +396,6 @@ async function main() {
         toolsReused++;
         continue;
       }
-
-      if (stars < 1) continue;
 
       const ageDays = repoCreatedAt
         ? (Date.now() - new Date(repoCreatedAt).getTime()) / 86_400_000
