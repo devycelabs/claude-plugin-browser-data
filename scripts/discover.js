@@ -291,8 +291,8 @@ async function main() {
       // Step 2: unchanged — reuse existing entries
       if (!hasChanged && existingByRepo.has(fullName)) {
         const existing = existingByRepo.get(fullName);
-        for (const e of existing) newPlugins.push({ ...e, repoUpdatedAt: meta.repoUpdatedAt });
-        updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt: meta.repoUpdatedAt };
+        for (const e of existing) newPlugins.push({ ...e, repoUpdatedAt: meta.repoUpdatedAt, maybeGone: false });
+        updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt: meta.repoUpdatedAt, missedFullRuns: 0 };
         pluginsReused++;
         if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
         continue;
@@ -328,7 +328,7 @@ async function main() {
         });
       }
 
-      updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+      updatedKnown[fullName] = { lastScannedAt: scanTime, repoUpdatedAt, missedFullRuns: 0 };
       pluginsFetched++;
 
       if (IS_FULL && interRepoSleep > 0) await sleep(interRepoSleep);
@@ -338,19 +338,32 @@ async function main() {
     }
   }
 
-  // Full run: prune stale known-repo entries no longer in code search
+  // Full run: grace-period pruning — repos absent 3+ consecutive full crawls are removed;
+  // repos absent 1–2 runs are carried forward flagged as maybeGone
+  const gracePeriodPlugins = [];
   if (IS_FULL) {
-    const before = Object.keys(updatedKnown).length;
-    for (const fn of Object.keys(updatedKnown)) {
-      if (!allRepos.has(fn)) delete updatedKnown[fn];
+    let pruned = 0, graced = 0;
+    for (const fn of Object.keys(knownRepos)) {
+      if (allRepos.has(fn)) continue; // found this run — already updated above
+      const misses = (knownRepos[fn].missedFullRuns ?? 0) + 1;
+      if (misses >= 3) {
+        delete updatedKnown[fn];
+        pruned++;
+      } else {
+        updatedKnown[fn] = { ...knownRepos[fn], missedFullRuns: misses };
+        for (const p of (existingByRepo.get(fn) ?? [])) {
+          gracePeriodPlugins.push({ ...p, maybeGone: true });
+        }
+        graced++;
+      }
     }
-    const removed = before - Object.keys(updatedKnown).length;
-    if (removed > 0) console.log(`Pruned ${removed} stale plugin entries`);
+    if (pruned > 0) console.log(`Pruned ${pruned} plugin repos (absent 3+ full runs)`);
+    if (graced > 0) console.log(`Grace period: ${graced} plugin repos carried forward as maybeGone`);
   }
 
   let finalPlugins;
   if (IS_FULL) {
-    finalPlugins = newPlugins;
+    finalPlugins = [...newPlugins, ...gracePeriodPlugins];
   } else {
     const processedRepos = new Set([...toProcessPlugins.keys()]);
     const existing = (safeReadJson(OUT_FILE)?.plugins ?? [])
@@ -391,8 +404,8 @@ async function main() {
       const hasChanged = !known?.repoUpdatedAt || repoUpdatedAt !== known.repoUpdatedAt;
 
       if (!hasChanged && existingTools.has(fullName)) {
-        newTools.push(existingTools.get(fullName));
-        updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+        newTools.push({ ...existingTools.get(fullName), maybeGone: false });
+        updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt, missedFullRuns: 0 };
         toolsReused++;
         continue;
       }
@@ -422,7 +435,7 @@ async function main() {
         installHint,
       });
 
-      updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt };
+      updatedKnownTools[fullName] = { lastScannedAt: scanTime, repoUpdatedAt, missedFullRuns: 0 };
       toolsFetched++;
 
     } catch (err) {
@@ -430,19 +443,30 @@ async function main() {
     }
   }
 
-  // Full run: prune stale tool entries no longer in topic search
+  // Full run: grace-period pruning — same 3-miss rule as plugins
+  const gracePeriodTools = [];
   if (IS_FULL) {
-    const before = Object.keys(updatedKnownTools).length;
-    for (const fn of Object.keys(updatedKnownTools)) {
-      if (!allTools.has(fn)) delete updatedKnownTools[fn];
+    let pruned = 0, graced = 0;
+    for (const fn of Object.keys(knownTools)) {
+      if (allTools.has(fn)) continue;
+      const misses = (knownTools[fn].missedFullRuns ?? 0) + 1;
+      if (misses >= 3) {
+        delete updatedKnownTools[fn];
+        pruned++;
+      } else {
+        updatedKnownTools[fn] = { ...knownTools[fn], missedFullRuns: misses };
+        const existing = existingTools.get(fn);
+        if (existing) gracePeriodTools.push({ ...existing, maybeGone: true });
+        graced++;
+      }
     }
-    const removed = before - Object.keys(updatedKnownTools).length;
-    if (removed > 0) console.log(`Pruned ${removed} stale tool entries`);
+    if (pruned > 0) console.log(`Pruned ${pruned} tool repos (absent 3+ full runs)`);
+    if (graced > 0) console.log(`Grace period: ${graced} tool repos carried forward as maybeGone`);
   }
 
   let finalTools;
   if (IS_FULL) {
-    finalTools = newTools;
+    finalTools = [...newTools, ...gracePeriodTools];
   } else {
     const processedToolRepos = new Set([...toProcessTools.keys()]);
     const existingFinal = (safeReadJson(OUT_FILE)?.tools ?? [])
