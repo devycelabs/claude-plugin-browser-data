@@ -22348,5 +22348,1615 @@
     "lastScannedAt": "2026-05-17T02:00:14.935Z",
     "repoUpdatedAt": "2026-05-14T17:05:52Z",
     "missedFullRuns": 0
+  },
+  "DomDemetz/claude-soul": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T20:56:44Z",
+    "missedFullRuns": 0
+  },
+  "Patdolitse/engram": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:41:30Z",
+    "missedFullRuns": 0
+  },
+  "r266-tech/wechat-local-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:19:19Z",
+    "missedFullRuns": 0
+  },
+  "ArcadeAI/agent-library": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T21:50:08Z",
+    "missedFullRuns": 0
+  },
+  "matthiastjong/shellgate": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T14:20:57Z",
+    "missedFullRuns": 0
+  },
+  "ihorponom/agentpack": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T18:43:09Z",
+    "missedFullRuns": 0
+  },
+  "STiFLeR7/memex": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:17:55Z",
+    "missedFullRuns": 0
+  },
+  "zoharbabin/web-researcher-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:23:34Z",
+    "missedFullRuns": 0
+  },
+  "ddevilz/loom": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T07:09:15Z",
+    "missedFullRuns": 0
+  },
+  "cyberNoman/universal-code-review-graph": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T05:50:23Z",
+    "missedFullRuns": 0
+  },
+  "froggychips/tweai": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T08:27:23Z",
+    "missedFullRuns": 0
+  },
+  "PDgit12/knit": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T18:07:31Z",
+    "missedFullRuns": 0
+  },
+  "Haris0059/ibu-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T07:33:06Z",
+    "missedFullRuns": 0
+  },
+  "rauls-kjarners/claude-to-gemini": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T12:06:03Z",
+    "missedFullRuns": 0
+  },
+  "MakeaMouse/fish-bridge-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:36:03Z",
+    "missedFullRuns": 0
+  },
+  "ghanibot/Claude-Code-on-WhatsApp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:01:20Z",
+    "missedFullRuns": 0
+  },
+  "averatec0773/beatos": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T00:56:59Z",
+    "missedFullRuns": 0
+  },
+  "JosephOIbrahim/Hanna": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T00:45:33Z",
+    "missedFullRuns": 0
+  },
+  "john-farina/claude-plugins": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:55:01Z",
+    "missedFullRuns": 0
+  },
+  "OneShotForge/mcp-email": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:30:25Z",
+    "missedFullRuns": 0
+  },
+  "Focus-GTS/eds-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T21:27:56Z",
+    "missedFullRuns": 0
+  },
+  "OutSystems/outsystems-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T21:17:17Z",
+    "missedFullRuns": 0
+  },
+  "cbuntingde/claude-memory": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T20:54:34Z",
+    "missedFullRuns": 0
+  },
+  "yashok111/telegram-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T17:01:20Z",
+    "missedFullRuns": 0
+  },
+  "2901were/gemini-creative-plugin": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:41:56Z",
+    "missedFullRuns": 0
+  },
+  "Florious95/team-agent": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:26:06Z",
+    "missedFullRuns": 0
+  },
+  "nngochai2/agent-playground": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:13:03Z",
+    "missedFullRuns": 0
+  },
+  "hculap/emodul": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:18:32Z",
+    "missedFullRuns": 0
+  },
+  "borg-farther/Borg-Directory": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:12:36Z",
+    "missedFullRuns": 0
+  },
+  "faraa2m/tokenometer": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T14:52:09Z",
+    "missedFullRuns": 0
+  },
+  "mironmax/claudecode-plugins": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T14:16:58Z",
+    "missedFullRuns": 0
+  },
+  "rajgurung/claude-engineering-standards": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T12:08:38Z",
+    "missedFullRuns": 0
+  },
+  "Kokai-Data/japan-business-intelligence": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:52:39Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/ato-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:36:52Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/aemo-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:36:52Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/au-weather-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:36:52Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/wgea-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:36:52Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/apra-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:35:31Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/aihw-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:35:32Z",
+    "missedFullRuns": 0
+  },
+  "Bigred97/asic-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:35:31Z",
+    "missedFullRuns": 0
+  },
+  "KogaCyber/jarvis-cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T10:43:08Z",
+    "missedFullRuns": 0
+  },
+  "yogsoth-ai/.github": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T12:58:19Z",
+    "missedFullRuns": 0
+  },
+  "abhineet34/linkedin-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T07:19:18Z",
+    "missedFullRuns": 0
+  },
+  "shwetak345/token-aware-dashboard": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T07:12:28Z",
+    "missedFullRuns": 0
+  },
+  "lengocduy/claude-code-in-action-uigen": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T07:03:36Z",
+    "missedFullRuns": 0
+  },
+  "shweta-bijay/token-aware-dashboard": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T06:58:35Z",
+    "missedFullRuns": 0
+  },
+  "slantidawg/claude-code-minimax": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T06:32:35Z",
+    "missedFullRuns": 0
+  },
+  "MankhongGarden/chrome-mcp-windows-survival-guide": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T05:46:00Z",
+    "missedFullRuns": 0
+  },
+  "vibhasdutta/context-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T04:01:09Z",
+    "missedFullRuns": 0
+  },
+  "hikari0511/awesome-amazon-ec-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T02:39:58Z",
+    "missedFullRuns": 0
+  },
+  "1337Xcode/cortex": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T02:22:06Z",
+    "missedFullRuns": 0
+  },
+  "developer-ishan/mcp-pexels": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T20:50:39Z",
+    "missedFullRuns": 0
+  },
+  "neonplants/auto-codex": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T23:11:51Z",
+    "missedFullRuns": 0
+  },
+  "r266-tech/xiaoyuzhou-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T15:28:08Z",
+    "missedFullRuns": 0
+  },
+  "r266-tech/babata": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T15:27:33Z",
+    "missedFullRuns": 0
+  },
+  "yogsoth-ai/wiki-vault": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T11:33:56Z",
+    "missedFullRuns": 0
+  },
+  "palveron/mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T09:58:09Z",
+    "missedFullRuns": 0
+  },
+  "Aiyo28/Xee-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T06:48:58Z",
+    "missedFullRuns": 0
+  },
+  "sankrant/clexo": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T19:30:17Z",
+    "missedFullRuns": 0
+  },
+  "PCSAdmin081/keyhand-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T18:53:03Z",
+    "missedFullRuns": 0
+  },
+  "FalsifyLab/falsifylab-alpha-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T16:43:01Z",
+    "missedFullRuns": 0
+  },
+  "altikva/cgh": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T15:48:47Z",
+    "missedFullRuns": 0
+  },
+  "kaiwenyu147369/verilog-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T10:34:04Z",
+    "missedFullRuns": 0
+  },
+  "faridjafarlee/refero-styles-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T14:15:39Z",
+    "missedFullRuns": 0
+  },
+  "IronLain88/The-Agents-MCP": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-01T19:49:54Z",
+    "missedFullRuns": 0
+  },
+  "wjohns989/Muninn": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-02-28T05:01:17Z",
+    "missedFullRuns": 0
+  },
+  "grovs-io/mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-13T10:37:01Z",
+    "missedFullRuns": 0
+  },
+  "ORION2809/claude-Fulcrum": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-01T08:07:26Z",
+    "missedFullRuns": 0
+  },
+  "froggychips/froggy-sre": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T05:28:38Z",
+    "missedFullRuns": 0
+  },
+  "froggychips/froggy-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T05:28:34Z",
+    "missedFullRuns": 0
+  },
+  "crux-cli/crux": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-03-24T05:35:36Z",
+    "missedFullRuns": 0
+  },
+  "okeefeco/pyeye-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-03-30T02:26:31Z",
+    "missedFullRuns": 0
+  },
+  "dundas/thinkbrowse": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-03-26T12:45:26Z",
+    "missedFullRuns": 0
+  },
+  "brianwestphal/hotsheet": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:29:26Z",
+    "missedFullRuns": 0
+  },
+  "YosifElessawi/naml": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:29:16Z",
+    "missedFullRuns": 0
+  },
+  "vk1356/vmux": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:29:04Z",
+    "missedFullRuns": 0
+  },
+  "antonlobanovskiy/agent-tmux-web": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:28:33Z",
+    "missedFullRuns": 0
+  },
+  "EricSun0218/pitchkit": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:28:25Z",
+    "missedFullRuns": 0
+  },
+  "cristian1991/AIDOCS": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:28:16Z",
+    "missedFullRuns": 0
+  },
+  "desplega-ai/agent-swarm": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:27:55Z",
+    "missedFullRuns": 0
+  },
+  "izhiwen/AiEconLab": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:27:49Z",
+    "missedFullRuns": 0
+  },
+  "rampstackco/claude-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:27:46Z",
+    "missedFullRuns": 0
+  },
+  "PromptMatrix/promptmatrix.github.io": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:27:44Z",
+    "missedFullRuns": 0
+  },
+  "opensesh/canvas-to-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:27:20Z",
+    "missedFullRuns": 0
+  },
+  "ywatanabe1989/scitex-agent-container": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:39Z",
+    "missedFullRuns": 0
+  },
+  "devswha/patina": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:33Z",
+    "missedFullRuns": 0
+  },
+  "felirangelp/harness-driven-dev": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:31Z",
+    "missedFullRuns": 0
+  },
+  "GeonheeYe/multi-agent-dotfiles": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:07Z",
+    "missedFullRuns": 0
+  },
+  "jasondillingham/bosun": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:25:56Z",
+    "missedFullRuns": 0
+  },
+  "yishan-io/yishan-mono": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:24:57Z",
+    "missedFullRuns": 0
+  },
+  "icedmoca/kcode": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:24:51Z",
+    "missedFullRuns": 0
+  },
+  "hyperb1iss/sibyl": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:24:46Z",
+    "missedFullRuns": 0
+  },
+  "Agents365-ai/target-prioritization": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:24:35Z",
+    "missedFullRuns": 0
+  },
+  "Aftermath-Technologies-Ltd/depose": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:28:24Z",
+    "missedFullRuns": 0
+  },
+  "vTuanpham/codex-reset-tracker": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:23:37Z",
+    "missedFullRuns": 0
+  },
+  "mazzzystar/ccclub": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:23:18Z",
+    "missedFullRuns": 0
+  },
+  "XoAnonXo/XOaura": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:22:37Z",
+    "missedFullRuns": 0
+  },
+  "jacob-balslev/skill-graph": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:22:22Z",
+    "missedFullRuns": 0
+  },
+  "shushenglihotmail/context-planning": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:22:15Z",
+    "missedFullRuns": 0
+  },
+  "ddong8/memento": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:22:16Z",
+    "missedFullRuns": 0
+  },
+  "anzy-renlab-ai/mypet": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:46Z",
+    "missedFullRuns": 0
+  },
+  "Vitalini/ebb-ai": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:41Z",
+    "missedFullRuns": 0
+  },
+  "BerriAI/litellm-agent-platform": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:26Z",
+    "missedFullRuns": 0
+  },
+  "ericm1018/skillfm-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:54Z",
+    "missedFullRuns": 0
+  },
+  "Davidcreador/pi-routines": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:21Z",
+    "missedFullRuns": 0
+  },
+  "Ecro/harness-maker": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:21Z",
+    "missedFullRuns": 0
+  },
+  "wanshuiyin/ARIS-in-AI-Offer": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:23:34Z",
+    "missedFullRuns": 0
+  },
+  "izhiwen/AiPlus-Agent-Team": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:21:04Z",
+    "missedFullRuns": 0
+  },
+  "Yukinori1018/ai-company-template": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:20:38Z",
+    "missedFullRuns": 0
+  },
+  "lu-zhengda/updater": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:20:28Z",
+    "missedFullRuns": 0
+  },
+  "CaoYuhaoCarl/wikix": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:20:17Z",
+    "missedFullRuns": 0
+  },
+  "HKUDS/nanobot": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:22:20Z",
+    "missedFullRuns": 0
+  },
+  "jmagly/agentic-sandbox": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:19:46Z",
+    "missedFullRuns": 0
+  },
+  "jzills/Claude-Marketplace": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:19:15Z",
+    "missedFullRuns": 0
+  },
+  "WenyuChiou/ai-research-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:19:09Z",
+    "missedFullRuns": 0
+  },
+  "anois/photo-tools": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:18:50Z",
+    "missedFullRuns": 0
+  },
+  "Yeachan-Heo/oh-my-claudecode": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:26:20Z",
+    "missedFullRuns": 0
+  },
+  "pencil20388-eng/adspower-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:18:39Z",
+    "missedFullRuns": 0
+  },
+  "barlowmen/prism": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:18:29Z",
+    "missedFullRuns": 0
+  },
+  "Xiao-rx/agent-workbench": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:18:28Z",
+    "missedFullRuns": 0
+  },
+  "taylor-s-amarel/open-harness-hub": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:18:23Z",
+    "missedFullRuns": 0
+  },
+  "KKenny0/Loom": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:17:56Z",
+    "missedFullRuns": 0
+  },
+  "0bserver07/StackUnderflow": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:16:50Z",
+    "missedFullRuns": 0
+  },
+  "PathanAhmad/zeroone-hack": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:16:41Z",
+    "missedFullRuns": 0
+  },
+  "rdh073/claude-conductor": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:16:01Z",
+    "missedFullRuns": 0
+  },
+  "adelaidasofia/whatsapp-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:15:53Z",
+    "missedFullRuns": 0
+  },
+  "clawde-agent/memobank-cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:15:41Z",
+    "missedFullRuns": 0
+  },
+  "kortix-ai/agent-computer-use": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:15:27Z",
+    "missedFullRuns": 0
+  },
+  "jvalin17/agent-toolkit": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:15:01Z",
+    "missedFullRuns": 0
+  },
+  "excatt/superclaude-plusplus": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:13:15Z",
+    "missedFullRuns": 0
+  },
+  "first-fluke/oh-my-agent": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:25:02Z",
+    "missedFullRuns": 0
+  },
+  "jongwony/epistemic-protocols": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:12:36Z",
+    "missedFullRuns": 0
+  },
+  "ariel-frischer/autospec": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:11:38Z",
+    "missedFullRuns": 0
+  },
+  "crevissepartners/projmux": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:11:37Z",
+    "missedFullRuns": 0
+  },
+  "YuDefine/nuxt-supabase-starter": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:10:55Z",
+    "missedFullRuns": 0
+  },
+  "zwyin/project-walkthrough-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:10:51Z",
+    "missedFullRuns": 0
+  },
+  "hoeongj/ssuAI": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:10:38Z",
+    "missedFullRuns": 0
+  },
+  "fastbytes/claude-safe": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:10:37Z",
+    "missedFullRuns": 0
+  },
+  "Northglass-Labs/idle": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:09:43Z",
+    "missedFullRuns": 0
+  },
+  "Manas470/tokenoptim": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:09:29Z",
+    "missedFullRuns": 0
+  },
+  "ceoguy/x-algorithm-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:08:54Z",
+    "missedFullRuns": 0
+  },
+  "zengtianli/cc-configs": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:07:42Z",
+    "missedFullRuns": 0
+  },
+  "browser-use/bux": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:07:16Z",
+    "missedFullRuns": 0
+  },
+  "izhiwen/AiPlus": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:07:00Z",
+    "missedFullRuns": 0
+  },
+  "ek33450505/homebrew-cast": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:06:04Z",
+    "missedFullRuns": 0
+  },
+  "SDS-Mode/pitboss": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:05:44Z",
+    "missedFullRuns": 0
+  },
+  "smartwatermelon/dev-env": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:04:51Z",
+    "missedFullRuns": 0
+  },
+  "crewship-ai/crewship": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:04:23Z",
+    "missedFullRuns": 0
+  },
+  "PiloTracer/.ai": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:04:14Z",
+    "missedFullRuns": 0
+  },
+  "delexw/claude-code-trace": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:03:18Z",
+    "missedFullRuns": 0
+  },
+  "datasci-iopsy/anaiis-dotfiles": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:03:08Z",
+    "missedFullRuns": 0
+  },
+  "hoveychen/claw-fleet": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:02:28Z",
+    "missedFullRuns": 0
+  },
+  "bkawa-bot/planet-maiko": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:02:19Z",
+    "missedFullRuns": 0
+  },
+  "minhnv0807/ai-business-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:02:07Z",
+    "missedFullRuns": 0
+  },
+  "lkim0402/agent-teamflow": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:01:05Z",
+    "missedFullRuns": 0
+  },
+  "NoxInfluencer/skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:00:52Z",
+    "missedFullRuns": 0
+  },
+  "dbc-oduffy/coordinator-claude": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:00:02Z",
+    "missedFullRuns": 0
+  },
+  "MelorTang/scopeguard": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:59:25Z",
+    "missedFullRuns": 0
+  },
+  "Two-Weeks-Team/memex": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:58:58Z",
+    "missedFullRuns": 0
+  },
+  "Chat2AnyLLM/awesome-claude-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:57:10Z",
+    "missedFullRuns": 0
+  },
+  "aerospike-ce-ecosystem/aerospike-ce-ecosystem-plugins": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:56:59Z",
+    "missedFullRuns": 0
+  },
+  "howar31/claude-backup": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:56:35Z",
+    "missedFullRuns": 0
+  },
+  "salp2403/cocxy-terminal": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:56:23Z",
+    "missedFullRuns": 0
+  },
+  "Han-cy830/llm-arena": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:56:18Z",
+    "missedFullRuns": 0
+  },
+  "bminier/claude-scope": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:06:10Z",
+    "missedFullRuns": 0
+  },
+  "seanyao/roll": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:55:35Z",
+    "missedFullRuns": 0
+  },
+  "paulnsorensen/easy-cheese": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:54:38Z",
+    "missedFullRuns": 0
+  },
+  "9aoyang/stackpilot": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:54:37Z",
+    "missedFullRuns": 0
+  },
+  "pzalutski-pixel/sharplens-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:54:00Z",
+    "missedFullRuns": 0
+  },
+  "claude-code-study/claude-code-master-reading": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:48Z",
+    "missedFullRuns": 0
+  },
+  "Conciliative-magnetosphere205/claude-code-docs": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:45Z",
+    "missedFullRuns": 0
+  },
+  "gertisubjective269/claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:42Z",
+    "missedFullRuns": 0
+  },
+  "dhruv7291022-create/claude-code-source-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:40Z",
+    "missedFullRuns": 0
+  },
+  "threeseeded-sistinechapel521/claude-code-workflow-notes": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:38Z",
+    "missedFullRuns": 0
+  },
+  "Alihusn3392/claude-code-from-scratch": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:38Z",
+    "missedFullRuns": 0
+  },
+  "jalehvesical21/claude-code-decompiled": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:36Z",
+    "missedFullRuns": 0
+  },
+  "stern-mathematicalstatement418/pcurl": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:32Z",
+    "missedFullRuns": 0
+  },
+  "alexzq343-beep/canvas-cowork": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:28Z",
+    "missedFullRuns": 0
+  },
+  "Tiaintermittent147/logpeek": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:29Z",
+    "missedFullRuns": 0
+  },
+  "Pitchforkanabaptist661/Claude-Code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:27Z",
+    "missedFullRuns": 0
+  },
+  "Merylstreepapplesauce635/Deep-Dive-Claude-Code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:26Z",
+    "missedFullRuns": 0
+  },
+  "Gabbysorn/claude-code_evil": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:23Z",
+    "missedFullRuns": 0
+  },
+  "Montesplenic117/CC": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:21Z",
+    "missedFullRuns": 0
+  },
+  "nydiapluperfect522/agentic-ai-from-claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:22Z",
+    "missedFullRuns": 0
+  },
+  "Teleroboticshairdresser663/claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:21Z",
+    "missedFullRuns": 0
+  },
+  "DoHyun468/claw-hwp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:21Z",
+    "missedFullRuns": 0
+  },
+  "160-cytoskeleton338/canvas-cowork": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:21Z",
+    "missedFullRuns": 0
+  },
+  "colicveinmedicine640/awesome-codex-cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:20Z",
+    "missedFullRuns": 0
+  },
+  "almightyYantao/it-iai": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:20Z",
+    "missedFullRuns": 0
+  },
+  "celerycabbagedaggerboard755/open-claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:20Z",
+    "missedFullRuns": 0
+  },
+  "Greaterneworleansbridgetimework650/claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:19Z",
+    "missedFullRuns": 0
+  },
+  "insightful-trimming472/Claude-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:19Z",
+    "missedFullRuns": 0
+  },
+  "featherlike-peperomiasandersii662/claude-code-fixed": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:18Z",
+    "missedFullRuns": 0
+  },
+  "zebulensharedout782/deep-researcher": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:19Z",
+    "missedFullRuns": 0
+  },
+  "danielgamy981/claude-code-main": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:17Z",
+    "missedFullRuns": 0
+  },
+  "mongoloid-closedsession617/claude-code-reverse": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:17Z",
+    "missedFullRuns": 0
+  },
+  "andre016bryan-cyber/claude-reviews-claude": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:17Z",
+    "missedFullRuns": 0
+  },
+  "cacodaemonic-impulseexplosive956/claude_code_src": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:16Z",
+    "missedFullRuns": 0
+  },
+  "Hairy-jumper134/last30days-cn-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:13Z",
+    "missedFullRuns": 0
+  },
+  "Batalha1118/claude-code-rev": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:12Z",
+    "missedFullRuns": 0
+  },
+  "Hagridden-tawnyeagle788/Claude-Code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:12Z",
+    "missedFullRuns": 0
+  },
+  "unoccupied-creep552/agentic-ai-prompt-research": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:12Z",
+    "missedFullRuns": 0
+  },
+  "eramabb8026/ex-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:07Z",
+    "missedFullRuns": 0
+  },
+  "Vinniphonetic360/clear-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:07Z",
+    "missedFullRuns": 0
+  },
+  "Alonepers3213/the-architect": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:05Z",
+    "missedFullRuns": 0
+  },
+  "anh39262/teammate-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:05Z",
+    "missedFullRuns": 0
+  },
+  "arshmanr35-dev/token-savior": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:05Z",
+    "missedFullRuns": 0
+  },
+  "asahnad9164/learn-coding-agent": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:53:03Z",
+    "missedFullRuns": 0
+  },
+  "classflow-api/cc-anywhere": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:56:05Z",
+    "missedFullRuns": 0
+  },
+  "michaelzph/vantrace": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:55Z",
+    "missedFullRuns": 0
+  },
+  "Mackerelscadpica752/claude-skill-gpt-pro": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:53Z",
+    "missedFullRuns": 0
+  },
+  "languagezoneenterprise545/awesome-ai-agent-incidents": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:53Z",
+    "missedFullRuns": 0
+  },
+  "reasonless-throne486/sast-skills": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:48Z",
+    "missedFullRuns": 0
+  },
+  "Gershoncasuistical234/readme-roast": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:37Z",
+    "missedFullRuns": 0
+  },
+  "Synchronic-leafbud824/skill-vault": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:36Z",
+    "missedFullRuns": 0
+  },
+  "Huldalackadaisical179/github-planner": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:32Z",
+    "missedFullRuns": 0
+  },
+  "Blairastragalar633/SkillStar": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:30Z",
+    "missedFullRuns": 0
+  },
+  "treasured-gasbomb383/NanoBananaASO": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:28Z",
+    "missedFullRuns": 0
+  },
+  "ayushrajsinha03072006-cloud/AntiPrivEsc": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:23Z",
+    "missedFullRuns": 0
+  },
+  "emlynnhonourable215/ai-design-team": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:24Z",
+    "missedFullRuns": 0
+  },
+  "Bennaco7539/skill-optimizer": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:20Z",
+    "missedFullRuns": 0
+  },
+  "Duongdin3346/CC": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:16Z",
+    "missedFullRuns": 0
+  },
+  "lenorebreakneck630/claude-zero-to-hero-android-KMP": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:16Z",
+    "missedFullRuns": 0
+  },
+  "tapperisobar941/claude-code-cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:12Z",
+    "missedFullRuns": 0
+  },
+  "sugarplumvenamesenterica421/claw-squad": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:10Z",
+    "missedFullRuns": 0
+  },
+  "babu9893/ifrs-skill": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:09Z",
+    "missedFullRuns": 0
+  },
+  "loralieunderivative666/hypergrep": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T01:52:04Z",
+    "missedFullRuns": 0
+  },
+  "oktopeak/clio-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:31:03Z",
+    "missedFullRuns": 0
+  },
+  "JuzzyDee/oneiro": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T19:29:01Z",
+    "missedFullRuns": 0
+  },
+  "RoscoNL/intodns-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:55:05Z",
+    "missedFullRuns": 0
+  },
+  "teocomyn/commerce-agent-protocol": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-04T10:43:41Z",
+    "missedFullRuns": 0
+  },
+  "LeszczynskiKarol/mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:10:12Z",
+    "missedFullRuns": 0
+  },
+  "Prageethcs/hippocamp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T08:21:54Z",
+    "missedFullRuns": 0
+  },
+  "jocarrd/aemet-client": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:35:55Z",
+    "missedFullRuns": 0
+  },
+  "auzroz/ynab-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-03T20:23:26Z",
+    "missedFullRuns": 0
+  },
+  "ccedacero/nyc-property-intel": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T01:40:58Z",
+    "missedFullRuns": 0
+  },
+  "Uri6407/claudegram": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:01:45Z",
+    "missedFullRuns": 0
+  },
+  "giridharpandurangi/runbook-exec": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-08T09:40:05Z",
+    "missedFullRuns": 0
+  },
+  "shopsmartai/mcp-oracle-dba": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-15T15:18:05Z",
+    "missedFullRuns": 0
+  },
+  "anthropics/claude-agent-sdk-typescript": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T21:31:07Z",
+    "missedFullRuns": 0
+  },
+  "teampolarity/cosmos-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:30:03Z",
+    "missedFullRuns": 0
+  },
+  "TheAIgentsCompany/TheAIgentsCompany-MCP": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:07:20Z",
+    "missedFullRuns": 0
+  },
+  "opcastil11/rogerrat": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:43:52Z",
+    "missedFullRuns": 0
+  },
+  "vardhineediganesh877-ui/skillforge": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T04:04:20Z",
+    "missedFullRuns": 0
+  },
+  "tubealfred/mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T17:13:27Z",
+    "missedFullRuns": 0
+  },
+  "comparedge/mcp-server-comparedge": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T12:17:43Z",
+    "missedFullRuns": 0
+  },
+  "solskiysb/shatale-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T11:03:17Z",
+    "missedFullRuns": 0
+  },
+  "moifek/limadata-mcp-community": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T21:09:18Z",
+    "missedFullRuns": 0
+  },
+  "zeph-to/mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T08:20:38Z",
+    "missedFullRuns": 0
+  },
+  "parallelclaw/memex-mvp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:42:16Z",
+    "missedFullRuns": 0
+  },
+  "NEAT-Technologies/Neat": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T18:31:32Z",
+    "missedFullRuns": 0
+  },
+  "distillation-labs/contextro": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T17:04:10Z",
+    "missedFullRuns": 0
+  },
+  "R0MADEV/lexis": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T19:39:20Z",
+    "missedFullRuns": 0
+  },
+  "carbonstop-hub/carbonstop-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-30T07:28:16Z",
+    "missedFullRuns": 0
+  },
+  "rubenlangeweg/productive-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-07T05:17:52Z",
+    "missedFullRuns": 0
+  },
+  "MHaggis/Security-Detections-MCP": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T03:34:24Z",
+    "missedFullRuns": 0
+  },
+  "diagrammo/dgmo-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T12:30:37Z",
+    "missedFullRuns": 0
+  },
+  "RobotRegistryFoundation/robot-md-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T16:37:44Z",
+    "missedFullRuns": 0
+  },
+  "lyupro/skillforge-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T23:00:47Z",
+    "missedFullRuns": 0
+  },
+  "clampd/clampd": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-13T04:02:13Z",
+    "missedFullRuns": 0
+  },
+  "AIWerk/mcp-bridge": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-12T18:31:20Z",
+    "missedFullRuns": 0
+  },
+  "Adi-204/asyncapi-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T16:36:39Z",
+    "missedFullRuns": 0
+  },
+  "retailerapi/mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T18:39:30Z",
+    "missedFullRuns": 0
+  },
+  "shaun0927/openchrome": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T16:19:50Z",
+    "missedFullRuns": 0
+  },
+  "kazuph/mcp-taskmanager": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-16T10:18:02Z",
+    "missedFullRuns": 0
+  },
+  "evrimalacan/mcp-bamboohr": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-03-24T17:14:21Z",
+    "missedFullRuns": 0
+  },
+  "aderik/mcp-cross-project-claude": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-16T11:11:43Z",
+    "missedFullRuns": 0
+  },
+  "stornoro/storno-cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:48:32Z",
+    "missedFullRuns": 0
+  },
+  "stolinski/css-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-14T09:08:10Z",
+    "missedFullRuns": 0
+  },
+  "PraneethGunas/ln-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-17T17:48:14Z",
+    "missedFullRuns": 0
+  },
+  "tornikebolokadze1-cyber/awesome-ai-pulse-georgia": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T17:19:06Z",
+    "missedFullRuns": 0
+  },
+  "poe-platform/poe-code": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-16T21:34:03Z",
+    "missedFullRuns": 0
+  },
+  "Blockchain-Oracle/pacifica-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-16T15:49:43Z",
+    "missedFullRuns": 0
+  },
+  "spences10/my-pi": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:47:43Z",
+    "missedFullRuns": 0
+  },
+  "Cirilcetra/codegraph": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-17T14:04:04Z",
+    "missedFullRuns": 0
+  },
+  "sahassakhare/agentic-ui": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T04:22:01Z",
+    "missedFullRuns": 0
+  },
+  "andywilliams/dwlf-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T19:13:17Z",
+    "missedFullRuns": 0
+  },
+  "vscarpenter/gsd-task-manager": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T23:07:20Z",
+    "missedFullRuns": 0
+  },
+  "zibdie/SSH-MCP-Server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-20T22:45:23Z",
+    "missedFullRuns": 0
+  },
+  "houtini-ai/fmp-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-16T14:08:36Z",
+    "missedFullRuns": 0
+  },
+  "kula-ai/kula-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-12T08:06:08Z",
+    "missedFullRuns": 0
+  },
+  "cuthongthai-vn/vimo-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-25T03:39:38Z",
+    "missedFullRuns": 0
+  },
+  "wernerglinka/metalsmith-plugin-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T19:40:55Z",
+    "missedFullRuns": 0
+  },
+  "t8y2/dbx": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T02:32:19Z",
+    "missedFullRuns": 0
+  },
+  "scrapeless-ai/scrapeless-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-15T16:27:12Z",
+    "missedFullRuns": 0
+  },
+  "RapierCraft/alterlab-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-16T00:34:59Z",
+    "missedFullRuns": 0
+  },
+  "plsft/basalt": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-12T17:17:14Z",
+    "missedFullRuns": 0
+  },
+  "lerianstudio/lerian-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-29T02:03:17Z",
+    "missedFullRuns": 0
+  },
+  "jungho-dev/fs-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T15:30:33Z",
+    "missedFullRuns": 0
+  },
+  "liushoukai/ponderers-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-27T02:08:44Z",
+    "missedFullRuns": 0
+  },
+  "Iploop/proxyclaw-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-26T06:37:55Z",
+    "missedFullRuns": 0
+  },
+  "aaronsb/jira-cloud": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T23:13:11Z",
+    "missedFullRuns": 0
+  },
+  "hestiatechnology/ui": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-12T20:35:14Z",
+    "missedFullRuns": 0
+  },
+  "maestrojeong/maestro-agent-sdk": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T00:42:02Z",
+    "missedFullRuns": 0
+  },
+  "edimuj/callmux": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T14:51:53Z",
+    "missedFullRuns": 0
+  },
+  "costasoftware/maestro": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T23:26:10Z",
+    "missedFullRuns": 0
+  },
+  "AnEntrypoint/acptoapi": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T11:57:41Z",
+    "missedFullRuns": 0
+  },
+  "tenova-labs/swt3-ai": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T13:02:03Z",
+    "missedFullRuns": 0
+  },
+  "leeon917/mcc": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T09:58:10Z",
+    "missedFullRuns": 0
+  },
+  "davccavalcante/TeleologyHI": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T23:53:59Z",
+    "missedFullRuns": 0
+  },
+  "XPRNetwork/xpr-agents": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T22:08:33Z",
+    "missedFullRuns": 0
+  },
+  "creatornader/atrib": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T03:41:14Z",
+    "missedFullRuns": 0
+  },
+  "lemmaoracle/lemma": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T22:42:48Z",
+    "missedFullRuns": 0
+  },
+  "j0hanz/fetch-url-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-11T19:15:48Z",
+    "missedFullRuns": 0
+  },
+  "mikekonan/cograph-connect": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T12:49:58Z",
+    "missedFullRuns": 0
+  },
+  "VladoIvankovic/Codeep": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T21:30:13Z",
+    "missedFullRuns": 0
+  },
+  "linq-team/linq-node": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T17:53:43Z",
+    "missedFullRuns": 0
+  },
+  "pieeee/docmcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-11T07:33:05Z",
+    "missedFullRuns": 0
+  },
+  "bedrockio/router": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-07T01:24:44Z",
+    "missedFullRuns": 0
+  },
+  "other2368-byte/clawbridge-agent": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T12:14:53Z",
+    "missedFullRuns": 0
+  },
+  "Opti-kjh/palette": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-01-13T05:59:54Z",
+    "missedFullRuns": 0
+  },
+  "expertintegrado/outlook-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-12T11:15:50Z",
+    "missedFullRuns": 0
+  },
+  "codeproxy-ai/cli": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T19:35:05Z",
+    "missedFullRuns": 0
+  },
+  "littleblakew/msds-chain-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-13T10:55:15Z",
+    "missedFullRuns": 0
+  },
+  "PostHog/mcp-analytics": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-18T21:38:01Z",
+    "missedFullRuns": 0
+  },
+  "mwashburn160/pipeline-builder": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T18:20:04Z",
+    "missedFullRuns": 0
+  },
+  "shuji-bonji/ifc-core-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-08T20:28:10Z",
+    "missedFullRuns": 0
+  },
+  "elementor/elementor": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-19T23:38:28Z",
+    "missedFullRuns": 0
+  },
+  "debu-sinha/excalidraw-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-02-13T14:54:03Z",
+    "missedFullRuns": 0
+  },
+  "slima-ai/slima-mcp": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-04-24T17:08:36Z",
+    "missedFullRuns": 0
+  },
+  "evantahler/mcpx": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-14T04:11:00Z",
+    "missedFullRuns": 0
+  },
+  "postmanlabs/postman-mcp-server": {
+    "lastScannedAt": "2026-05-20T02:15:24.322Z",
+    "repoUpdatedAt": "2026-05-20T00:49:10Z",
+    "missedFullRuns": 0
   }
 }
