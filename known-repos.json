@@ -15133,5 +15133,115 @@
     "lastScannedAt": "2026-06-07T02:32:47.101Z",
     "repoUpdatedAt": "2026-06-06T16:15:51Z",
     "missedFullRuns": 0
+  },
+  "assimovt/productskills": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-05-29T10:01:34Z",
+    "missedFullRuns": 0
+  },
+  "apmantza/GreedySearch-pi": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-08T21:07:04Z",
+    "missedFullRuns": 0
+  },
+  "chouzz/minecraft-mod-dev": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-05T06:02:23Z",
+    "missedFullRuns": 0
+  },
+  "JieGouAI/claude-code-plugin": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-03-21T02:55:28Z",
+    "missedFullRuns": 0
+  },
+  "K-dash/typemux-cc": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-05-14T10:45:12Z",
+    "missedFullRuns": 0
+  },
+  "MaouStan/ralph-local": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-01-10T20:25:53Z",
+    "missedFullRuns": 0
+  },
+  "rifh2000/claude-grc-engineering.": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-25T03:10:44Z",
+    "missedFullRuns": 0
+  },
+  "coldtatooine/seo-skill-pack": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-08T00:52:08Z",
+    "missedFullRuns": 0
+  },
+  "toshimaru/claude-plugins": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-12T14:43:16Z",
+    "missedFullRuns": 0
+  },
+  "otolab/ai-agent-prompts": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-02T02:27:41Z",
+    "missedFullRuns": 0
+  },
+  "LeomaiaJr/leo-skills": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-01-29T16:42:16Z",
+    "missedFullRuns": 0
+  },
+  "marcwimmer/claude": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-20T20:05:20Z",
+    "missedFullRuns": 0
+  },
+  "ivyleavedtoadflax/RapSkill": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-03-27T22:18:10Z",
+    "missedFullRuns": 0
+  },
+  "TLOGBen/AcademicHelper": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-02T13:26:28Z",
+    "missedFullRuns": 0
+  },
+  "Atena-IT/git-tasks": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-28T19:22:46Z",
+    "missedFullRuns": 0
+  },
+  "pforret/cli-skills": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-04-05T11:15:29Z",
+    "missedFullRuns": 0
+  },
+  "Wengouu/tseo": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-08T08:48:27Z",
+    "missedFullRuns": 0
+  },
+  "HawkannG/Claude-Warden": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-03-11T21:45:34Z",
+    "missedFullRuns": 0
+  },
+  "ehmo/ios-binary-size-reduction-skill": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-03T07:34:44Z",
+    "missedFullRuns": 0
+  },
+  "VirtusLab/cellar": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-07T14:54:04Z",
+    "missedFullRuns": 0
+  },
+  "ijin/aidlc-cc-plugin": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-09T10:59:08Z",
+    "missedFullRuns": 0
+  },
+  "miles990/claude-software-skills": {
+    "lastScannedAt": "2026-06-10T02:30:56.542Z",
+    "repoUpdatedAt": "2026-06-03T06:31:51Z",
+    "missedFullRuns": 0
   }
 }
