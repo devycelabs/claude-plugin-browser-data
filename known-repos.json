@@ -14633,5 +14633,1675 @@
     "lastScannedAt": "2026-06-14T02:36:52.356Z",
     "repoUpdatedAt": "2026-06-13T14:19:48Z",
     "missedFullRuns": 0
+  },
+  "agent-messenger/agent-messenger": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T20:19:21Z",
+    "missedFullRuns": 0
+  },
+  "epigen/CellWhisperer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T15:11:40Z",
+    "missedFullRuns": 0
+  },
+  "thijs-hakkenberg/ValkyrieMCP": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-26T00:15:20Z",
+    "missedFullRuns": 0
+  },
+  "nmelo/solutions-engineering-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-12T00:05:07Z",
+    "missedFullRuns": 0
+  },
+  "vivalalova/mongo-ts": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-03T09:44:11Z",
+    "missedFullRuns": 0
+  },
+  "robin-guide/robin-cli": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-13T22:43:11Z",
+    "missedFullRuns": 0
+  },
+  "bongho/claude-env-sync": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-28T11:10:12Z",
+    "missedFullRuns": 0
+  },
+  "bnb-chain/bnb-bounty-reviewer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-01T07:32:06Z",
+    "missedFullRuns": 0
+  },
+  "EltonMeh/equalizer-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-01T15:28:56Z",
+    "missedFullRuns": 0
+  },
+  "zsjon/Auto_Excel_to_Outlook": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-05T09:16:52Z",
+    "missedFullRuns": 0
+  },
+  "dolphinsue319/mcp2plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-04T01:33:27Z",
+    "missedFullRuns": 0
+  },
+  "pawarbi/fabric-skills-toolkit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-23T21:57:52Z",
+    "missedFullRuns": 0
+  },
+  "zsspub/zss-funds-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-27T13:38:20Z",
+    "missedFullRuns": 0
+  },
+  "fol2/james-dev-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-22T09:38:51Z",
+    "missedFullRuns": 0
+  },
+  "psylch/media-master": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-24T06:36:59Z",
+    "missedFullRuns": 0
+  },
+  "netlify/context-and-tools": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-11T19:09:41Z",
+    "missedFullRuns": 0
+  },
+  "Siam-analytics/claude-code-lsps": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T13:10:51Z",
+    "missedFullRuns": 0
+  },
+  "dddtc2005/praxys": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-04T06:37:38Z",
+    "missedFullRuns": 0
+  },
+  "mit-network/Antigravity-awesome-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T11:10:15Z",
+    "missedFullRuns": 0
+  },
+  "boneskull/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-05T00:46:06Z",
+    "missedFullRuns": 0
+  },
+  "AlpYenigun/eliniscan": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-28T09:30:58Z",
+    "missedFullRuns": 0
+  },
+  "straddleio/ai": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T09:45:32Z",
+    "missedFullRuns": 0
+  },
+  "pietgk/vivief": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T16:11:45Z",
+    "missedFullRuns": 0
+  },
+  "owid/owid-claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-06T07:11:15Z",
+    "missedFullRuns": 0
+  },
+  "pbakaus/impeccable": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T02:45:25Z",
+    "missedFullRuns": 0
+  },
+  "grafana/gcx": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T19:14:59Z",
+    "missedFullRuns": 0
+  },
+  "obra/claude-session-driver": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T04:33:18Z",
+    "missedFullRuns": 0
+  },
+  "wy51ai/edulab": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:48:56Z",
+    "missedFullRuns": 0
+  },
+  "LeonardoTan19/metaforge": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-18T12:48:01Z",
+    "missedFullRuns": 0
+  },
+  "defendend/Claude-ast-index-search": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:18:23Z",
+    "missedFullRuns": 0
+  },
+  "ReflexioAI/claude-smart": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T21:55:06Z",
+    "missedFullRuns": 0
+  },
+  "zencity/databricks-logs-reader": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-02T19:08:28Z",
+    "missedFullRuns": 0
+  },
+  "edp43273-glitch/181-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T13:28:58Z",
+    "missedFullRuns": 0
+  },
+  "Moco99/claude-usage-bars": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T17:19:37Z",
+    "missedFullRuns": 0
+  },
+  "firecrawl/cli": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T23:33:22Z",
+    "missedFullRuns": 0
+  },
+  "frane/agented": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T10:20:55Z",
+    "missedFullRuns": 0
+  },
+  "leogallego/claude-ansible-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T22:59:30Z",
+    "missedFullRuns": 0
+  },
+  "petekp/circuit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T19:52:03Z",
+    "missedFullRuns": 0
+  },
+  "Goodnight77/rag-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-03T21:31:50Z",
+    "missedFullRuns": 0
+  },
+  "onmyway133/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-18T09:09:58Z",
+    "missedFullRuns": 0
+  },
+  "papaChong1229/cc-xp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-03T06:02:40Z",
+    "missedFullRuns": 0
+  },
+  "dro42/presentation-kit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-19T10:56:45Z",
+    "missedFullRuns": 0
+  },
+  "5tldr/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-07T09:56:45Z",
+    "missedFullRuns": 0
+  },
+  "KDL-Solution/claude-tempo": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-30T05:18:03Z",
+    "missedFullRuns": 0
+  },
+  "wan-huiyan/overnight-workflows": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-02T10:56:20Z",
+    "missedFullRuns": 0
+  },
+  "bazakai/scrolls": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T10:57:51Z",
+    "missedFullRuns": 0
+  },
+  "xCloudDev/xcloud-agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-05T04:43:26Z",
+    "missedFullRuns": 0
+  },
+  "lbildzinkas/claude-code-market-place": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-10-13T15:00:13Z",
+    "missedFullRuns": 0
+  },
+  "TytaniumDev/TytaniumAgentSkills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-22T06:24:21Z",
+    "missedFullRuns": 0
+  },
+  "accionlabs/breezeai-hubexo-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T07:23:49Z",
+    "missedFullRuns": 0
+  },
+  "karinje/code-hardening": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-11T16:26:56Z",
+    "missedFullRuns": 0
+  },
+  "itsmelouis/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-06T01:24:21Z",
+    "missedFullRuns": 0
+  },
+  "MaTo8888/ECC": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T22:25:09Z",
+    "missedFullRuns": 0
+  },
+  "puwenjunluck-pixel/aioncode": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T16:09:41Z",
+    "missedFullRuns": 0
+  },
+  "orchestra-hq/orchestra-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T18:42:12Z",
+    "missedFullRuns": 0
+  },
+  "dljw/singcompress": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-07T20:58:37Z",
+    "missedFullRuns": 0
+  },
+  "hang-in/tunaLlama": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T17:35:13Z",
+    "missedFullRuns": 0
+  },
+  "wayanjimmy/agent-stuff": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T03:50:32Z",
+    "missedFullRuns": 0
+  },
+  "Frachtwerk/essencium-frontend-migration-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-20T08:37:08Z",
+    "missedFullRuns": 0
+  },
+  "strzhao/autopilot": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T17:05:33Z",
+    "missedFullRuns": 0
+  },
+  "dimanngo/ai-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-18T17:59:12Z",
+    "missedFullRuns": 0
+  },
+  "SuperScript/sst-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-06T21:26:45Z",
+    "missedFullRuns": 0
+  },
+  "foontinz/claude-code-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-24T21:03:22Z",
+    "missedFullRuns": 0
+  },
+  "jentic/jentic-api-scorecard": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T23:10:22Z",
+    "missedFullRuns": 0
+  },
+  "pappasam/nvim-context-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-21T01:52:35Z",
+    "missedFullRuns": 0
+  },
+  "yuji-hatakeyama/claude-code-perlnavigator": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-01T06:09:27Z",
+    "missedFullRuns": 0
+  },
+  "monoes/monomind": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T23:45:43Z",
+    "missedFullRuns": 0
+  },
+  "qdrant/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T18:39:02Z",
+    "missedFullRuns": 0
+  },
+  "pluginagentmarketplace/custom-plugin-sql": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-28T07:10:14Z",
+    "missedFullRuns": 0
+  },
+  "Acuris-GmbH/acuris-agent-context": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-21T17:54:33Z",
+    "missedFullRuns": 0
+  },
+  "Mulyu/monban": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-28T03:33:34Z",
+    "missedFullRuns": 0
+  },
+  "arch1904/e2e-visual-audit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-04T23:10:33Z",
+    "missedFullRuns": 0
+  },
+  "nyjin/skill-reviewer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-18T00:48:55Z",
+    "missedFullRuns": 0
+  },
+  "marcelopaniza/terse-md": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-19T22:30:47Z",
+    "missedFullRuns": 0
+  },
+  "msmorgan/mtg-rules": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T05:10:23Z",
+    "missedFullRuns": 0
+  },
+  "MysticRyuujin/rpcwright": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T16:04:41Z",
+    "missedFullRuns": 0
+  },
+  "DanieleSassoli/gerrit-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-10T01:43:17Z",
+    "missedFullRuns": 0
+  },
+  "CartapenaBark/DotNetAnalyzer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-21T10:43:27Z",
+    "missedFullRuns": 0
+  },
+  "BiswaViraj/agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T10:24:33Z",
+    "missedFullRuns": 0
+  },
+  "barkain/claude-code-workflow-orchestration": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T00:51:06Z",
+    "missedFullRuns": 0
+  },
+  "crazyguitar/cppcheatsheet": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-07T16:58:54Z",
+    "missedFullRuns": 0
+  },
+  "patrick204nqh/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-16T06:03:15Z",
+    "missedFullRuns": 0
+  },
+  "gyovana-prado/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-31T01:29:29Z",
+    "missedFullRuns": 0
+  },
+  "4eleven7/Claude-Skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T10:48:55Z",
+    "missedFullRuns": 0
+  },
+  "FragmentedPacket/claude-marketplace-test": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-31T05:50:48Z",
+    "missedFullRuns": 0
+  },
+  "ZaBrisket/case-study-orchestrator": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-22T20:28:52Z",
+    "missedFullRuns": 0
+  },
+  "TEHIK-EE/ai-generic-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-12T10:44:40Z",
+    "missedFullRuns": 0
+  },
+  "byheaven/byheaven-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-01T10:33:06Z",
+    "missedFullRuns": 0
+  },
+  "MFSoftwareEngineering/mfse-softwarefactory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-13T20:22:33Z",
+    "missedFullRuns": 0
+  },
+  "nathanonn/claude-skills-sandbox-architect": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-14T15:26:20Z",
+    "missedFullRuns": 0
+  },
+  "woditschka/agentic-coding-reference": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T21:41:40Z",
+    "missedFullRuns": 0
+  },
+  "irl-dan/multiverse": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-28T01:41:35Z",
+    "missedFullRuns": 0
+  },
+  "NYCU-Chung/claude-line-channel": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-17T17:09:05Z",
+    "missedFullRuns": 0
+  },
+  "speakeasy-api/granary": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T16:13:09Z",
+    "missedFullRuns": 0
+  },
+  "fraillt/testscribe": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:40:09Z",
+    "missedFullRuns": 0
+  },
+  "quiqupltd/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-09T16:12:04Z",
+    "missedFullRuns": 0
+  },
+  "ats-kinoshita-iso/henka-council": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-03T18:43:44Z",
+    "missedFullRuns": 0
+  },
+  "gyanesh-m/retro-daily": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-05T07:45:57Z",
+    "missedFullRuns": 0
+  },
+  "chocholous/financial-services-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-06T08:22:19Z",
+    "missedFullRuns": 0
+  },
+  "gemini-cli-extensions/bigquery-data-analytics": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T18:19:16Z",
+    "missedFullRuns": 0
+  },
+  "kimcharli/ck-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-21T07:44:31Z",
+    "missedFullRuns": 0
+  },
+  "OWENLEEzy/happy-trip-site": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T16:07:22Z",
+    "missedFullRuns": 0
+  },
+  "k15r/k15rhub": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T06:23:26Z",
+    "missedFullRuns": 0
+  },
+  "LG13-21/lg13-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-03T21:49:33Z",
+    "missedFullRuns": 0
+  },
+  "stemado/visualizer-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-20T23:07:10Z",
+    "missedFullRuns": 0
+  },
+  "igor-holt/sear": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-29T13:31:55Z",
+    "missedFullRuns": 0
+  },
+  "fakoli/systems-thinking-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-05T00:47:06Z",
+    "missedFullRuns": 0
+  },
+  "firecrawl/firecrawl-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T22:10:17Z",
+    "missedFullRuns": 0
+  },
+  "burgebj/agentharness": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T20:46:25Z",
+    "missedFullRuns": 0
+  },
+  "guilhermesimoes-beyond/DotNetAnalyzer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-27T19:02:05Z",
+    "missedFullRuns": 0
+  },
+  "kvcache-ai/Mooncake": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T02:35:16Z",
+    "missedFullRuns": 0
+  },
+  "nyldn/claude-octopus": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T00:59:18Z",
+    "missedFullRuns": 0
+  },
+  "metio/ilo": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T01:13:10Z",
+    "missedFullRuns": 0
+  },
+  "Power-Agent/PowerSkills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T01:44:43Z",
+    "missedFullRuns": 0
+  },
+  "carloshpdoc/ios-workflow-claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T01:46:49Z",
+    "missedFullRuns": 0
+  },
+  "leeguooooo/cross-request-master": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T11:21:26Z",
+    "missedFullRuns": 0
+  },
+  "adelabdelgawad/fullstack-agents": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T08:41:45Z",
+    "missedFullRuns": 0
+  },
+  "fcs7/whmcs-mcp-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-29T20:02:28Z",
+    "missedFullRuns": 0
+  },
+  "kylemarham/apple-copy-skill": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-19T16:07:35Z",
+    "missedFullRuns": 0
+  },
+  "gqy20/cc_plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-09T12:09:24Z",
+    "missedFullRuns": 0
+  },
+  "seranking/seo-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T00:42:22Z",
+    "missedFullRuns": 0
+  },
+  "sidfeels/excalidraw-diagrams": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-05T01:23:45Z",
+    "missedFullRuns": 0
+  },
+  "trmquang93/mobile-design-kit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-25T18:02:20Z",
+    "missedFullRuns": 0
+  },
+  "bachsh/supermarket": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T06:24:03Z",
+    "missedFullRuns": 0
+  },
+  "kororos/cc-feature-factory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T10:19:24Z",
+    "missedFullRuns": 0
+  },
+  "martianmobile/strategy-evaluation": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T00:00:11Z",
+    "missedFullRuns": 0
+  },
+  "caseyrtalbot/forge": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-13T13:29:02Z",
+    "missedFullRuns": 0
+  },
+  "Mumega-com/mcpwp-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T23:31:51Z",
+    "missedFullRuns": 0
+  },
+  "openplanr/marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T18:02:44Z",
+    "missedFullRuns": 0
+  },
+  "dotBeeps/clawlint": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-14T18:45:16Z",
+    "missedFullRuns": 0
+  },
+  "jianmliu/aigg-memory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T01:45:06Z",
+    "missedFullRuns": 0
+  },
+  "mumez/smalltalk-dev-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T05:54:42Z",
+    "missedFullRuns": 0
+  },
+  "Bettor-Faster/multiagent-discord-coworker": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-06T12:59:10Z",
+    "missedFullRuns": 0
+  },
+  "Slowth-KIM/slowth-agents": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-17T19:54:16Z",
+    "missedFullRuns": 0
+  },
+  "ngarrison-stack/claude-plugin-database": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-11-17T02:33:54Z",
+    "missedFullRuns": 0
+  },
+  "rodrigodelmonte/k8s-debugging-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-02T22:21:46Z",
+    "missedFullRuns": 0
+  },
+  "act101-ai/act101": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T11:40:31Z",
+    "missedFullRuns": 0
+  },
+  "DinN0000/bidkit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T04:54:31Z",
+    "missedFullRuns": 0
+  },
+  "jonmcgee37/n8n-automations-toolkit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-27T17:52:40Z",
+    "missedFullRuns": 0
+  },
+  "minusblindfold/devloop": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-26T16:52:46Z",
+    "missedFullRuns": 0
+  },
+  "GetWhys-Engineering/agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T23:50:21Z",
+    "missedFullRuns": 0
+  },
+  "lisn0/learned-behavior": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-25T11:02:25Z",
+    "missedFullRuns": 0
+  },
+  "EncoreKit/claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-13T16:35:20Z",
+    "missedFullRuns": 0
+  },
+  "pe-menezes/pmflow": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-13T23:14:50Z",
+    "missedFullRuns": 0
+  },
+  "Sahib-Sawhney-WH/sahibs-claude-plugin-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-20T20:31:02Z",
+    "missedFullRuns": 0
+  },
+  "NikolasP98/minion_plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-28T22:22:28Z",
+    "missedFullRuns": 0
+  },
+  "YusufLisawi/continuum": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-02T15:12:44Z",
+    "missedFullRuns": 0
+  },
+  "Hayashi-Takuto/takuto-claude-code": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-05T08:34:56Z",
+    "missedFullRuns": 0
+  },
+  "baidubce/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T14:01:59Z",
+    "missedFullRuns": 0
+  },
+  "wan-huiyan/claude-code-session-repair": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T16:01:41Z",
+    "missedFullRuns": 0
+  },
+  "kwmt/claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T02:34:00Z",
+    "missedFullRuns": 0
+  },
+  "de-anchorite/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-25T11:27:23Z",
+    "missedFullRuns": 0
+  },
+  "AlexBramall/claude-code-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-22T03:13:44Z",
+    "missedFullRuns": 0
+  },
+  "hifriendbot/cogmemai-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-11T19:25:57Z",
+    "missedFullRuns": 0
+  },
+  "caoxg/claude-skill-aesthetic-foundations": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-18T20:39:21Z",
+    "missedFullRuns": 0
+  },
+  "johwiebe/anki-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-05T11:23:17Z",
+    "missedFullRuns": 0
+  },
+  "srikalyan/srikalyan-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-20T18:14:04Z",
+    "missedFullRuns": 0
+  },
+  "SolAstrius/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-25T18:51:43Z",
+    "missedFullRuns": 0
+  },
+  "wanggang316/harness-stack": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T14:11:56Z",
+    "missedFullRuns": 0
+  },
+  "suntay44/buildable-plugin-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:50:27Z",
+    "missedFullRuns": 0
+  },
+  "hmyuuu/typdd": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-30T05:59:55Z",
+    "missedFullRuns": 0
+  },
+  "tuanle96/agent-harness-kit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-11T03:34:02Z",
+    "missedFullRuns": 0
+  },
+  "Xopoko/plug-n-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T01:55:44Z",
+    "missedFullRuns": 0
+  },
+  "sls-org-testing-10/tw93-waza": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-23T02:09:45Z",
+    "missedFullRuns": 0
+  },
+  "iwo-szapar/yalla": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T17:31:39Z",
+    "missedFullRuns": 0
+  },
+  "kp222x/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-17T16:06:24Z",
+    "missedFullRuns": 0
+  },
+  "honruch/104-jobhunt": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-29T08:57:35Z",
+    "missedFullRuns": 0
+  },
+  "mazenyassergithub/oh-my-claudecode": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T13:29:51Z",
+    "missedFullRuns": 0
+  },
+  "slapglif/theory2-physics-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-21T19:22:50Z",
+    "missedFullRuns": 0
+  },
+  "FedericoSerini/homelab-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-06T09:58:43Z",
+    "missedFullRuns": 0
+  },
+  "jonaskahn/agent-context": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-14T10:17:21Z",
+    "missedFullRuns": 0
+  },
+  "jmlweb/skills-monorepo": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-28T17:22:42Z",
+    "missedFullRuns": 0
+  },
+  "djliden/devrel-claude-code-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-12-29T17:34:43Z",
+    "missedFullRuns": 0
+  },
+  "onlooker-community/ecosystem": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T16:59:04Z",
+    "missedFullRuns": 0
+  },
+  "LeoHeo/dev-squad": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-22T23:04:52Z",
+    "missedFullRuns": 0
+  },
+  "twaldin/claudecord": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-20T04:05:30Z",
+    "missedFullRuns": 0
+  },
+  "worksystems-design/dwsd-dsl-vscode": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-26T09:52:25Z",
+    "missedFullRuns": 0
+  },
+  "levifig/loaf": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T00:23:31Z",
+    "missedFullRuns": 0
+  },
+  "aadarshvelu/syndicate": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T07:03:18Z",
+    "missedFullRuns": 0
+  },
+  "insidewhy/the.squirrel": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-04T05:01:13Z",
+    "missedFullRuns": 0
+  },
+  "forKernels/sci-lsp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T02:42:23Z",
+    "missedFullRuns": 0
+  },
+  "nathanhouse/stationx-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-15T07:19:24Z",
+    "missedFullRuns": 0
+  },
+  "princespaghetti/claude-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-04T15:57:35Z",
+    "missedFullRuns": 0
+  },
+  "harshav167/plaud-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-30T08:47:41Z",
+    "missedFullRuns": 0
+  },
+  "kayossouza/claude-workshop": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T11:06:33Z",
+    "missedFullRuns": 0
+  },
+  "run-as-root/toggl-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-09T08:58:11Z",
+    "missedFullRuns": 0
+  },
+  "joonhyungbae/art-project": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T20:48:19Z",
+    "missedFullRuns": 0
+  },
+  "SkinnnyJay/wiki-llm": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-14T06:47:42Z",
+    "missedFullRuns": 0
+  },
+  "ai-x-skills/project-skills-manager": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-18T09:49:57Z",
+    "missedFullRuns": 0
+  },
+  "z80020100/claude-code-statusline": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-05T07:54:14Z",
+    "missedFullRuns": 0
+  },
+  "ccam80/thesis-writer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T04:50:35Z",
+    "missedFullRuns": 0
+  },
+  "stefanfaur/roach-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-06T14:34:05Z",
+    "missedFullRuns": 0
+  },
+  "burgebj/claudeoctopus": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T11:25:14Z",
+    "missedFullRuns": 0
+  },
+  "sls-org-testing-04/tw93-waza": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-23T00:15:45Z",
+    "missedFullRuns": 0
+  },
+  "sls-org-testing-06/tw93-waza": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-23T02:04:44Z",
+    "missedFullRuns": 0
+  },
+  "sls-org-testing-13/tw93-waza": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-24T01:18:44Z",
+    "missedFullRuns": 0
+  },
+  "sickn33/antigravity-awesome-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T02:48:53Z",
+    "missedFullRuns": 0
+  },
+  "Owl-Listener/designer-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T01:59:35Z",
+    "missedFullRuns": 0
+  },
+  "Pinperepette/agd-memory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-21T08:15:46Z",
+    "missedFullRuns": 0
+  },
+  "jtydhr88/comfyui-custom-node-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T02:18:33Z",
+    "missedFullRuns": 0
+  },
+  "madd86/codex-bridge": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-01T01:01:34Z",
+    "missedFullRuns": 0
+  },
+  "ellyseum/claude-total-recall": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-22T21:16:43Z",
+    "missedFullRuns": 0
+  },
+  "galyarderlabs/galyarder-framework": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T04:32:58Z",
+    "missedFullRuns": 0
+  },
+  "LichAmnesia/lich-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T08:52:53Z",
+    "missedFullRuns": 0
+  },
+  "angelaaaateng/my-team-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T03:36:00Z",
+    "missedFullRuns": 0
+  },
+  "IT-HUSET/andthen": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T15:07:22Z",
+    "missedFullRuns": 0
+  },
+  "y-ymmt/cc-manim-video-creator-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-01T10:06:13Z",
+    "missedFullRuns": 0
+  },
+  "twofoldtech-dakota/plugin-architect": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-21T00:41:08Z",
+    "missedFullRuns": 0
+  },
+  "hiroro-work/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T00:12:36Z",
+    "missedFullRuns": 0
+  },
+  "obacker/claude-code-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-18T09:52:07Z",
+    "missedFullRuns": 0
+  },
+  "satyaborg/kensa": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-07T05:09:39Z",
+    "missedFullRuns": 0
+  },
+  "marcelrgberger/whatsapp-cli": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-19T18:55:45Z",
+    "missedFullRuns": 0
+  },
+  "exglade/my-tax-specialist": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T12:18:26Z",
+    "missedFullRuns": 0
+  },
+  "Square596/remote-ssh-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-15T10:52:26Z",
+    "missedFullRuns": 0
+  },
+  "quynhlx/sbox-bugfix-pipeline": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-13T04:45:24Z",
+    "missedFullRuns": 0
+  },
+  "1nv1s1b1e/operation-logger-skill": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-27T18:39:48Z",
+    "missedFullRuns": 0
+  },
+  "fyrsmithlabs/marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T12:59:33Z",
+    "missedFullRuns": 0
+  },
+  "OctagonAI/octagon-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-29T18:31:48Z",
+    "missedFullRuns": 0
+  },
+  "vyazovsky1/tpm": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T20:03:44Z",
+    "missedFullRuns": 0
+  },
+  "deepflow-labs/ai-tools": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-02T17:19:39Z",
+    "missedFullRuns": 0
+  },
+  "hlibkoval/claudemd": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T08:52:25Z",
+    "missedFullRuns": 0
+  },
+  "lloydho/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T05:57:31Z",
+    "missedFullRuns": 0
+  },
+  "rajshah4/rajiv-openhands-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T17:32:36Z",
+    "missedFullRuns": 0
+  },
+  "minukHwang/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-03T11:13:30Z",
+    "missedFullRuns": 0
+  },
+  "danielscholl/cc-marketplace-ag1": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-21T19:17:14Z",
+    "missedFullRuns": 0
+  },
+  "TheGlitchKing/aeon-loop": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-19T00:51:38Z",
+    "missedFullRuns": 0
+  },
+  "clavulin/groundfetch": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T12:39:00Z",
+    "missedFullRuns": 0
+  },
+  "wenhaochai/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-05T20:01:10Z",
+    "missedFullRuns": 0
+  },
+  "TomCN0803/claude-code-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-10-11T06:51:51Z",
+    "missedFullRuns": 0
+  },
+  "arhx/claude-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-27T23:50:52Z",
+    "missedFullRuns": 0
+  },
+  "cpa2001/BioBank-Agent": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-11T17:46:09Z",
+    "missedFullRuns": 0
+  },
+  "xDido/chiron": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-27T14:56:24Z",
+    "missedFullRuns": 0
+  },
+  "acidkill/surreal-memory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T07:58:02Z",
+    "missedFullRuns": 0
+  },
+  "CrisChenYingyan/readpaper-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T23:23:47Z",
+    "missedFullRuns": 0
+  },
+  "kctw-dev/shikigami": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T15:19:31Z",
+    "missedFullRuns": 0
+  },
+  "marcelopaniza/beams": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T10:45:06Z",
+    "missedFullRuns": 0
+  },
+  "ballerina-platform/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T12:55:28Z",
+    "missedFullRuns": 0
+  },
+  "ugai/agent-guild-tavern": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-02T00:12:28Z",
+    "missedFullRuns": 0
+  },
+  "manuelfedele/postino": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-11T15:30:21Z",
+    "missedFullRuns": 0
+  },
+  "dwmkerr/git-workforest": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-29T10:37:50Z",
+    "missedFullRuns": 0
+  },
+  "aotter/mantle-starters": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T05:13:54Z",
+    "missedFullRuns": 0
+  },
+  "Comfy-Org/comfy-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-12T07:07:07Z",
+    "missedFullRuns": 0
+  },
+  "testdino-hq/TestDino-Plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-25T09:55:17Z",
+    "missedFullRuns": 0
+  },
+  "thomasindrias/issue-dev": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-05T16:12:42Z",
+    "missedFullRuns": 0
+  },
+  "samelie/arcana-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-20T03:01:27Z",
+    "missedFullRuns": 0
+  },
+  "adericbourg/ai-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T07:41:23Z",
+    "missedFullRuns": 0
+  },
+  "Mahir-Isikli/life-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-25T16:58:17Z",
+    "missedFullRuns": 0
+  },
+  "adaptyteam/adapty-sdk-integration-skill": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T13:26:47Z",
+    "missedFullRuns": 0
+  },
+  "bakrsabeeh/salla-pm-os": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T18:02:46Z",
+    "missedFullRuns": 0
+  },
+  "joySUSY/violet-plugin-place": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-15T01:51:54Z",
+    "missedFullRuns": 0
+  },
+  "Altstaq-Apps/skillforge-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-15T20:41:26Z",
+    "missedFullRuns": 0
+  },
+  "AdamJ/productdesign-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T13:57:05Z",
+    "missedFullRuns": 0
+  },
+  "basta/claude-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-08T20:31:45Z",
+    "missedFullRuns": 0
+  },
+  "steltz/skill-factory": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-12T02:17:44Z",
+    "missedFullRuns": 0
+  },
+  "LightyAI/lighty-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T00:22:40Z",
+    "missedFullRuns": 0
+  },
+  "analyticalmonk/explain-this": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T11:43:58Z",
+    "missedFullRuns": 0
+  },
+  "savaki/savaki-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2025-10-26T07:39:43Z",
+    "missedFullRuns": 0
+  },
+  "igor-holt/ag-15": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-30T09:03:23Z",
+    "missedFullRuns": 0
+  },
+  "esxr/operant": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T08:56:34Z",
+    "missedFullRuns": 0
+  },
+  "belljun3395/agent-tracer": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T09:17:51Z",
+    "missedFullRuns": 0
+  },
+  "BooPixel/boopixel-strategy": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-06T01:35:40Z",
+    "missedFullRuns": 0
+  },
+  "No-Compromise-AI/specstep-plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-06T14:37:26Z",
+    "missedFullRuns": 0
+  },
+  "UniM0cha/claude-self-improving-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T23:31:37Z",
+    "missedFullRuns": 0
+  },
+  "0xmariowu/Autosearch": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T23:06:57Z",
+    "missedFullRuns": 0
+  },
+  "DavidWilsby/agent-ping": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-10T16:43:10Z",
+    "missedFullRuns": 0
+  },
+  "ArmisSecurity/armis-appsec-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T04:54:51Z",
+    "missedFullRuns": 0
+  },
+  "hmcts/agentic-plugins-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-22T10:10:53Z",
+    "missedFullRuns": 0
+  },
+  "agentpatterns/craft": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-01T21:14:13Z",
+    "missedFullRuns": 0
+  },
+  "wataori/claude-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-23T08:28:06Z",
+    "missedFullRuns": 0
+  },
+  "CartoDB/agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T09:04:00Z",
+    "missedFullRuns": 0
+  },
+  "hangox/claude-portainer-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-23T09:52:04Z",
+    "missedFullRuns": 0
+  },
+  "Primary-Vector/unofficial-typst-for-claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-08T01:29:13Z",
+    "missedFullRuns": 0
+  },
+  "Crypt0xDev/adaptive-ai-engineering-system": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-10T22:18:57Z",
+    "missedFullRuns": 0
+  },
+  "tdav/Auto.Documentation.Code": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-01T12:16:37Z",
+    "missedFullRuns": 0
+  },
+  "FamilySearch/gedcomx-java": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-04T14:10:40Z",
+    "missedFullRuns": 0
+  },
+  "SaadRahman01/claude-moodle-dev": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T07:49:15Z",
+    "missedFullRuns": 0
+  },
+  "smileynet/line-cook": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-08T22:47:32Z",
+    "missedFullRuns": 0
+  },
+  "semaphoreio/sem-ai": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T19:49:24Z",
+    "missedFullRuns": 0
+  },
+  "chrischall/infinitecampus-mcp": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T22:16:55Z",
+    "missedFullRuns": 0
+  },
+  "kaszubski/engineering-leader-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-30T23:26:38Z",
+    "missedFullRuns": 0
+  },
+  "maxvaega/awesome-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-13T03:01:37Z",
+    "missedFullRuns": 0
+  },
+  "fianchettogianni/my-marketing-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-16T14:33:54Z",
+    "missedFullRuns": 0
+  },
+  "Dexploarer/claudius-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-04T15:02:35Z",
+    "missedFullRuns": 0
+  },
+  "Tokine3/claude-statusline-vt": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-03-20T08:13:31Z",
+    "missedFullRuns": 0
+  },
+  "alexzh3/codex-orchestrator": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T22:58:56Z",
+    "missedFullRuns": 0
+  },
+  "OpenKit-Ltd/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T16:45:54Z",
+    "missedFullRuns": 0
+  },
+  "ericcames/aap-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-25T05:07:16Z",
+    "missedFullRuns": 0
+  },
+  "irl-llc/status-pipe": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T11:58:22Z",
+    "missedFullRuns": 0
+  },
+  "FL03/shepherd": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T19:22:51Z",
+    "missedFullRuns": 0
+  },
+  "jieliapp/plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T14:53:13Z",
+    "missedFullRuns": 0
+  },
+  "gitkb/gitkb-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-19T20:56:26Z",
+    "missedFullRuns": 0
+  },
+  "kietlecocodev/dailynews-skill": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-04T03:04:49Z",
+    "missedFullRuns": 0
+  },
+  "sigmacomputing/sigma-agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T09:45:24Z",
+    "missedFullRuns": 0
+  },
+  "mmorris35/devplan-mcp-server": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T23:25:40Z",
+    "missedFullRuns": 0
+  },
+  "EmbarkStudios/UnrealClaudeFileHelper": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-11T13:12:39Z",
+    "missedFullRuns": 0
+  },
+  "cruciate-hub/marketing-team": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T19:36:56Z",
+    "missedFullRuns": 0
+  },
+  "oxylabs/agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-08T10:10:27Z",
+    "missedFullRuns": 0
+  },
+  "alvarovillalbaa/plugins": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-14T08:14:23Z",
+    "missedFullRuns": 0
+  },
+  "dekart-xyz/geosql": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:15:10Z",
+    "missedFullRuns": 0
+  },
+  "OthmanAdi/planning-with-teams": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-03T22:47:43Z",
+    "missedFullRuns": 0
+  },
+  "leonasdev/dot-claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-24T03:19:08Z",
+    "missedFullRuns": 0
+  },
+  "rxtech-lab/agent-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-02T11:56:53Z",
+    "missedFullRuns": 0
+  },
+  "rickym-h/jadefall-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-14T19:55:39Z",
+    "missedFullRuns": 0
+  },
+  "onetinov/vibe-mentor": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-14T04:13:22Z",
+    "missedFullRuns": 0
+  },
+  "munlucky/moonshot-relay": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T22:07:38Z",
+    "missedFullRuns": 0
+  },
+  "buildkite/skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-17T00:24:34Z",
+    "missedFullRuns": 0
+  },
+  "ikeisuke/ai-dlc-starter-kit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T13:46:45Z",
+    "missedFullRuns": 0
+  },
+  "abevol/my-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-01T06:18:58Z",
+    "missedFullRuns": 0
+  },
+  "Takhoffman/onenote-desktop-agent": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T22:02:49Z",
+    "missedFullRuns": 0
+  },
+  "arbade/quietclash": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-05T19:14:05Z",
+    "missedFullRuns": 0
+  },
+  "gigs-slc/react-native-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-19T23:18:17Z",
+    "missedFullRuns": 0
+  },
+  "DontHow/coding-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-05T09:47:13Z",
+    "missedFullRuns": 0
+  },
+  "jbouder/jean-claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-25T20:48:24Z",
+    "missedFullRuns": 0
+  },
+  "lekt9/jstack": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T20:09:56Z",
+    "missedFullRuns": 0
+  },
+  "mumo-chat/mumo-claude": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-23T03:46:12Z",
+    "missedFullRuns": 0
+  },
+  "security-engineer/custom-dataset-audit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-13T09:39:54Z",
+    "missedFullRuns": 0
+  },
+  "jvanbuel/data-engineering-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-01T18:56:15Z",
+    "missedFullRuns": 0
+  },
+  "Teraflop-Inc/twelvelabs-claude-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-02-09T20:57:18Z",
+    "missedFullRuns": 0
+  },
+  "GoogleCloudPlatform/db-context-enrichment": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T14:15:24Z",
+    "missedFullRuns": 0
+  },
+  "mrzdevcore/haira": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-03T09:15:45Z",
+    "missedFullRuns": 0
+  },
+  "msolanas/swiss-rav": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-29T07:19:06Z",
+    "missedFullRuns": 0
+  },
+  "ctoth/research-papers-plugin": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-28T21:25:08Z",
+    "missedFullRuns": 0
+  },
+  "alpoxdev/hypercore": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-09T07:53:55Z",
+    "missedFullRuns": 0
+  },
+  "asysta-act/agent-flow": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-02T17:11:19Z",
+    "missedFullRuns": 0
+  },
+  "takaakit/superpowers-uml": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-26T06:38:51Z",
+    "missedFullRuns": 0
+  },
+  "ThrownLemon/cc-hooks-custom": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-25T15:41:38Z",
+    "missedFullRuns": 0
+  },
+  "Generovo/claude-voice-skills": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-11T14:23:23Z",
+    "missedFullRuns": 0
+  },
+  "exerias21/brainstorm-toolkit": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-15T01:36:24Z",
+    "missedFullRuns": 0
+  },
+  "andresharpe/pwsh-code-review-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-19T10:35:29Z",
+    "missedFullRuns": 0
+  },
+  "3li7alaki/mint": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-05-31T12:28:28Z",
+    "missedFullRuns": 0
+  },
+  "donghui-0126/better-than-tomorrow": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-04-08T23:08:01Z",
+    "missedFullRuns": 0
+  },
+  "bpainter/composable-dxp-claude-marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-16T01:04:04Z",
+    "missedFullRuns": 0
+  },
+  "dabstractor/mdsel-skill": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-01-25T19:48:20Z",
+    "missedFullRuns": 0
+  },
+  "fundamental-physics/marketplace": {
+    "lastScannedAt": "2026-06-17T02:44:38.900Z",
+    "repoUpdatedAt": "2026-06-07T01:42:25Z",
+    "missedFullRuns": 0
   }
 }
